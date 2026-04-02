@@ -111,7 +111,7 @@ sudo dnf swap mesa-vdpau-drivers.i686 mesa-vdpau-drivers-freeworld.i686
 * `hostnamectl set-hostname YOUR_HOSTNAME`
 
 ## Default Firefox start page 
-* The tweak below will make the start page the default firefox start page instead of [this](https://fedoraproject.org/start)
+* The tweak below will make the start page the default firefox start page instead of [this](https://fedoraproject.org/start), (Note: If you're using Fedora Silverblue and not stock Fedora then click [here](https://github.com/devangshekhawat/Fedora-44-Post-Install-Guide/issues/49#issuecomment-4172103035))
 * `sudo rm -f /usr/lib64/firefox/browser/defaults/preferences/firefox-redhat-default-prefs.js`
 
 ## Custom DNS Servers
