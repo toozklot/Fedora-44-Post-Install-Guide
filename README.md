@@ -132,10 +132,6 @@ Domains=~.
 ## Optimizations
 * The tips below can allow you to squeeze out a little bit more performance from your system. 
 
-### Enable nvidia-modeset 
-* Useful if you have a laptop with an Nvidia GPU. Necessary for some PRIME-related interoperability features.
-* `sudo grubby --update-kernel=ALL --args="nvidia-drm.modeset=1"`
-
 ### Disable `NetworkManager-wait-online.service`
 * Disabling it can decrease the boot time by at least ~15s-20s:
 * `sudo systemctl disable NetworkManager-wait-online.service`
