@@ -95,5 +95,5 @@ VS Codium
 ## Theming
 * Configure Rewaita
 * Use an icon pack
-* Use a grub theme
+* [Use a grub theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
 * Install a font e.g. Montserrat
