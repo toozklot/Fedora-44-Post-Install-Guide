@@ -1,15 +1,7 @@
  # Fedora 44 Post Install Guide
 Things to do after installing Fedora 44
 
-## RPM Fusion
-
-* Fedora has disabled the repositories for a lot of free and non-free .rpm packages by default. Follow this if you want to use non-free software like Steam, Discord and some multimedia codecs etc. As a general rule of thumb it is advised to do this to get access to many mainstream useful programs.
-* To enable access to both the free and the nonfree repository use the following command: 
-* `sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm`
-* `sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1`
-* also while you're at it, install app-stream metadata:
-* `sudo dnf install rpmfusion-\*-appstream-data`
-  
+## [RPM Fusion & app-stream metadata](https://rpmfusion.org/Configuration#Command_Line_Setup_using_rpm)
 
 ## Update 
 * `sudo dnf -y update`
@@ -24,9 +16,7 @@ sudo fwupdmgr get-updates # Fetches list of available updates.
 sudo fwupdmgr update
 ```
 
-## Flatpak
-* Fedora doesn't include all non-free flatpaks by default. The command below enables access to all the flathub flatpaks. Particularly useful for users of Fedora KDE and other spins since they do not get the "Enable Third Party Repositories" option on initial boot.
-* `flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
+## [Flathub](https://flathub.org/en/setup/Fedora)
 
 * Fedora doesn't enable Flatpak user-home installation by default, to enable it run:
 * `flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
