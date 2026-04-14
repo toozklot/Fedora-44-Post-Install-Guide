@@ -104,11 +104,11 @@ VS Codium
 * Librewold by default isn't the best experience
 
 ### Extentions
-* uBlock Origin
-* New Tab Override
-* Auto Tab Discard
-* Consent-O-Matic
-* Canvas Blocker
+* uBlock Origin (add blocker)
+* New Tab Override (for use with self hosted homepage)
+* Auto Tab Discard (save ram by sleeping unused tabs)
+* Consent-O-Matic (automatically fill out cookie consent forms)
+* Canvas Blocker (prevent fingerprinting via javascript)
 * Bitwarden Password Manager
 * ClearURLs
 * Clear Cache
