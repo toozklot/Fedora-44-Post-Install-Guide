@@ -43,8 +43,7 @@ sudo fwupdmgr update
 ## Set Hostname
 * `hostnamectl set-hostname YOUR_HOSTNAME`
 
-## Tailscale
-* [Installation guide](https://tailscale.com/docs/install/linux)
+## [Tailscale](https://tailscale.com/docs/install/linux)
 
 ## Optimisations
 * The tips below can allow you to squeeze out a little bit more performance from your system. 
