@@ -99,6 +99,7 @@ VS Codium
 * Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
 * Install and use a sytem wide font using GNOME Tweaks
 * Set a background in GNOME Tweaks
+* Use GDM Settings to theme GDM (the default is hideous)
 
 ## Firefox 
 * Librewold by default isn't the best experience
