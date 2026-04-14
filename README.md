@@ -1,4 +1,4 @@
- # Fedora 44 Post Install Guide
+# Fedora 44 Post Install Guide
 Things to do after installing Fedora 44
 
 ## [RPM Fusion & app-stream metadata](https://rpmfusion.org/Configuration#Command_Line_Setup_using_rpm)
@@ -25,7 +25,7 @@ sudo fwupdmgr update
 ## AppImage
 
 * For Appimage support install fuse:
-* `sudo dnf in fuse-libs`
+* `sudo dnf install fuse-libs`
 * You can also install an AppImage manager like [Gearlever](https://flathub.org/apps/it.mijorus.gearlever) for neater management
 
 ## [Media Codecs](https://rpmfusion.org/Configuration)
