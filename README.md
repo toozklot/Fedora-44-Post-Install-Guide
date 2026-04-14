@@ -48,7 +48,7 @@ sudo fwupdmgr update
 * Install Tailscale for an easy, secure connection to your NAS / server
 
 ## Optimisations
-* The tips below can allow you to squeeze out a little bit more performance from your system. 
+* The tips below can allow you to squeeze out a little bit more performance from your system
 
 ### Disable Gnome Software from Startup Apps [look into this]
 * Gnome software autostarts on boot for some reason, even though it is not required on every boot unless you want it to do updates in the background, this takes at least 100MB of RAM upto 900MB (as reported anecdotically). You can stop it from autostarting by:
