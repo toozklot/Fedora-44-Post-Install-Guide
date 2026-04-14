@@ -2,6 +2,7 @@
 Things to do after installing Fedora 44
 
 ## [RPM Fusion & app-stream metadata](https://rpmfusion.org/Configuration#Command_Line_Setup_using_rpm)
+* Add the RPM Fusion repositories and app-stream metadata
 
 ## Update 
 * `sudo dnf -y update`
@@ -44,6 +45,7 @@ sudo fwupdmgr update
 * `hostnamectl set-hostname YOUR_HOSTNAME`
 
 ## [Tailscale](https://tailscale.com/docs/install/linux)
+* Install Tailscale for an easy, secure connection to your NAS / server
 
 ## Optimisations
 * The tips below can allow you to squeeze out a little bit more performance from your system. 
