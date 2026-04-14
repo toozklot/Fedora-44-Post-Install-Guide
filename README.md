@@ -58,7 +58,7 @@ sudo fwupdmgr update
 * Use Gnome Software to uninstall Calendar and Typing Booster
 
 ## Gnome Extensions
-* Suggestions for good utilities to extend the capabilities of your system
+* Good utilities to extend the capabilities of your system (except BMS, which eats ram and just looks cool)
 * [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 * [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
 * [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
