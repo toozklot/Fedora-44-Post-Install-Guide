@@ -67,7 +67,6 @@ sudo fwupdmgr update
  `sudo dnf install -y unzip p7zip p7zip-plugins unrar`
 * These are Some Packages that I use:
 ```
-Alacritty (performant terminal emulator)
 Anki (flashcards)
 Btrfs Assistant (snapshots)
 Discord
@@ -88,6 +87,7 @@ Pika backup (modern alternative to Deja Dup Backups)
 Rewaita (easy gnome themeing)
 Sound Recorder
 Spotify (music streaming)
+Steam
 Upscaler
 VS Codium
 ```
