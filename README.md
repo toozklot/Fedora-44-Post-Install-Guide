@@ -94,6 +94,28 @@ VS Codium
   
 ## Theming
 * Configure Rewaita
-* Use an icon pack
-* [Use a grub theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
-* Install a font e.g. Montserrat
+* Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
+* Install and use a sytem wide font using GNOME Tweaks
+* Set a background in GNOME Tweaks
+
+## Firefox 
+* Librewold by default isn't the best experience
+
+### Extentions
+* uBlock Origin
+* New Tab Override
+* Auto Tab Discard
+* Consent-O-Matic
+* Canvas Blocker
+* Bitwarden Password Manager
+* ClearURLs
+* Clear Cache
+* Obsidian Web Clipper
+* Wayback Machine
+
+### Theme
+* Install a theme
+
+## Configure GNOME
+* Simply run through all settings in GNOME Settings, GNOME Tweaks, and Just Perfection
+
