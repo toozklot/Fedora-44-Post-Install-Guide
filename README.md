@@ -89,7 +89,7 @@ Pika backup (modern alternative to Deja Dup Backups)
 Rewaita (easy gnome themeing)
 Sound Recorder
 Spotify (music streaming)
-Steam
+Steam (install the `steam-devices` package for controller support)
 Upscaler
 VS Codium
 ```
