@@ -4,10 +4,11 @@ Things to do after installing Fedora 44
 ## RPM Fusion
 
 * Fedora has disabled the repositories for a lot of free and non-free .rpm packages by default. Follow this if you want to use non-free software like Steam, Discord and some multimedia codecs etc. As a general rule of thumb it is advised to do this to get access to many mainstream useful programs.
-* Enable third party repositories by pasting the following into the terminal: 
+* To enable access to both the free and the nonfree repository use the following command: 
 * `sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm`
-* also while you're at it, install app-stream metadata by:
-* `sudo dnf group upgrade core`
+* `sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1`
+* also while you're at it, install app-stream metadata:
+* `sudo dnf install rpmfusion-\*-appstream-data`
   
 
 ## Update 
@@ -37,25 +38,11 @@ sudo fwupdmgr update
 * You can also install an AppImage manager like [Gearlever](https://flathub.org/apps/it.mijorus.gearlever) for neater management. To do so, run the following command:
 * `flatpak install it.mijorus.gearlever` 
 
-## Media Codecs
+## [Media Codecs](https://rpmfusion.org/Configuration)
 * Install these to get proper multimedia playback.
-````
-sudo dnf swap 'ffmpeg-free' 'ffmpeg' --allowerasing # Switch to full FFMPEG.
-sudo dnf upgrade @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin # Installs gstreamer components. Required if you use Gnome Videos and other dependent applications.
-sudo dnf group install -y sound-and-video # Installs useful Sound and Video complementary packages.
-````
 
-## H/W Video Acceleration
+## [H/W Video Acceleration](https://fedoraproject.org/wiki/Hardware_Video_Acceleration)
 * Helps decrease load on the CPU when watching videos online by alloting the rendering to the dGPU/iGPU. Quite helpful in increasing battery backup on laptops.
-
-### H/W Video Decoding with VA-API [look into this]
-* `sudo dnf install ffmpeg-libs libva libva-utils`
-
-#### Intel
- 
-* If you have a recent Intel chipset (5th Gen and above) after installing the packages above., Do:
-* `sudo dnf swap libva-intel-media-driver intel-media-driver --allowerasing`
-* `sudo dnf install libva-intel-driver`
 
 ### OpenH264 for Firefox
 * `sudo dnf install -y openh264 gstreamer1-plugin-openh264 mozilla-openh264`
