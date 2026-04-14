@@ -84,9 +84,7 @@ sudo dnf group install -y sound-and-video # Installs useful Sound and Video comp
 * [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 * [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
 * [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
-* [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
 * [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
-* [Wireless HID](https://extensions.gnome.org/extension/4228/wireless-hid/)
 
 ## Apps
 * Packages for Rar and 7z compressed files support:
