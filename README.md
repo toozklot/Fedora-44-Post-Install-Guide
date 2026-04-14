@@ -122,3 +122,5 @@ VS Codium
 ## Configure GNOME
 * Simply run through all settings in GNOME Settings, GNOME Tweaks, and Just Perfection
 
+## [Performance optimisation guide](https://github.com/winterofhell/fedora-optimizations)
+* Most of the above guide likely isn't worth the hassle, but it's a good idea to look through it
