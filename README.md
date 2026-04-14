@@ -26,8 +26,7 @@ sudo fwupdmgr update
 
 * For Appimage support install fuse:
 * `sudo dnf in fuse-libs`
-* You can also install an AppImage manager like [Gearlever](https://flathub.org/apps/it.mijorus.gearlever) for neater management. To do so, run the following command:
-* `flatpak install it.mijorus.gearlever` 
+* You can also install an AppImage manager like [Gearlever](https://flathub.org/apps/it.mijorus.gearlever) for neater management
 
 ## [Media Codecs](https://rpmfusion.org/Configuration)
 * Install these to get proper multimedia playback.
