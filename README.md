@@ -58,7 +58,7 @@ sudo fwupdmgr update
 
 ## Gnome Extensions
 * Good utilities to extend the capabilities of your system (except BMS, which eats ram and just looks cool)
-* [User Themes](https://extensions.gnome.org/extension/19/user-themes/) (for theming)
+* [User Themes](https://extensions.gnome.org/extension/19/user-themes/) (for theming gnome shell)
 * [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
 * [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
 * [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
