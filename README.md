@@ -72,7 +72,7 @@ flatpak uninstall --unused
 ### Remove Gnome Calendar (skip if you use GNOME Calendar)
 * `sudo dnf remove gnome-calendar`
 * If the above doesn't work it is installed as a flatpak:
-* flatpak uninstall org.gnome.Calendar 
+* `flatpak uninstall org.gnome.Calendar `
 
 ### Disable ibus-typing-booster
 * Open GNOME Settings -> Keyboard (or Region & Language)
@@ -113,8 +113,8 @@ lm_sensors (required for vitals extention)
 Obsidian (notes)
 OpenCloud Desktop sync client (appimage)
 Parabolic (video downloader)
-Pika backup (home directory backups)
-Rewaita (easy gnome themeing)
+Pika Backup (home directory backups)
+Rewaita (easy gnome themeing NOTE: uses 60MB ram)
 Sound Recorder
 Spotify (music streaming)
 Steam (install the "steam-devices" package for controller support)
@@ -152,5 +152,5 @@ VS Codium
 ## Configure GNOME
 * Simply run through all settings in GNOME Settings, GNOME Tweaks, and Just Perfection
 
-## [Performance optimisation guide](https://github.com/winterofhell/fedora-optimizations)
+## [Performance optimisation guide](https://github.com/winterofhell/fedora-optimizations) [go through this and cherry pick]
 * Most of the above guide likely isn't worth the hassle, but it's a good idea to look through it
