@@ -116,12 +116,13 @@ VS Codium
 * Lower the value of `dom.ipc.processCount.webIsolated` in `about:config`
 
 ### Extentions
-* uBlock Origin (add blocker)
 * Auto Tab Discard (save ram by sleeping unused tabs)
-* Consent-O-Matic (automatically fill out cookie consent forms)
-* Canvas Blocker (prevent fingerprinting via javascript)
 * Bitwarden Password Manager
+* Canvas Blocker (prevent fingerprinting via javascript)
+* ClearURLs (removes tracking elements from URLs)
+* Consent-O-Matic (automatically fill out cookie consent forms)
 * Obsidian Web Clipper
+* uBlock Origin (ad blocker)
 * Wayback Machine
 
 ### Theme
