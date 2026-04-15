@@ -72,8 +72,8 @@ Anki (flashcards)
 Btrfs Assistant (snapshots)
 Discord
 Drawing (ms paint alternative)
-Deja Dup Backups 
 Extension Manager
+Flatseal (flatpack permission manager)
 Footage (lightweight video editor)
 GDM Settings
 Gnome Tweaks
