@@ -67,13 +67,13 @@ flatpak remove <application>
 flatpak uninstall --unused # removes unused runtimes and extentions
 ```
 
-### Remove Gnome Calendar (skip if you use GNOME Calendar)
+### Remove Gnome Calendar (optional)
 * `sudo dnf remove gnome-calendar`
 * If the above doesn't work it is installed as a flatpak:
 * `flatpak uninstall org.gnome.Calendar `
 
 ### Disable ibus-typing-booster
-* Open GNOME Settings -> Keyboard (or Region & Language)
+* Open Gnome Settings -> Keyboard (or Region & Language)
 * Under Input Sources, click the three-dot menu and select the ibus-typing-booster entry
 * Remove it from the list
 
@@ -85,8 +85,8 @@ flatpak uninstall --unused # removes unused runtimes and extentions
 
 ## Gnome Extensions
 * Good utilities to extend the capabilities of your system
-* [User Themes](https://extensions.gnome.org/extension/19/user-themes/) (for theming gnome shell)
-* [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
+* [User Themes](https://extensions.gnome.org/extension/19/user-themes/) (for theming Gnome Shell)
+* [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/) (more tweaks)
 * [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) (for trading ram for looks)
 * [Vitals](https://extensions.gnome.org/extension/1460/vitals/) (system monitoriting on the taskbar)
 
@@ -121,10 +121,10 @@ VS Codium
 ```
   
 ## Theming
-* Set a background in GNOME Tweaks
-* Configure Rewaita or install a theme from [GNOME-look](gnome-look.org)
+* Set a background in Gnome Tweaks
+* Configure Rewaita or install a theme from [Gnome Look](gnome-look.org)
 * Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
-* Change font using GNOME Tweaks
+* Change font using Gnome Tweaks
 * Theme GDM using GDM Settings
 
 ## Firefox 
@@ -148,7 +148,7 @@ VS Codium
 * Install a Firefox theme
 
 ## Configure GNOME
-* Simply run through all settings in GNOME Settings, GNOME Tweaks, and Just Perfection
+* Simply run through all settings in Gnome Settings, Gnome Tweaks, and Just Perfection
 
 ## [Performance optimisation guide](https://github.com/winterofhell/fedora-optimizations) [go through this and cherry pick]
 * Most of the above guide likely isn't worth the hassle, but it's a good idea to look through it
