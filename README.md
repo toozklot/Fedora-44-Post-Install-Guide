@@ -145,7 +145,7 @@ VS Codium
 * Firefox (and forks) benefit greatly from extentions and other tweaks
 
 ### Ram usage
-* For systems with <= 8GB ram:
+* For systems struggling with ram:
 * Lower the value of `dom.ipc.processCount.webIsolated` in `about:config` to 2 or 3
 
 ### Extentions
