@@ -84,7 +84,7 @@ lm_sensors (required for vitals extention)
 Obsidian (notes)
 OpenCloud Desktop sync client (appimage)
 Parabolic (video downloader)
-Pika backup (modern alternative to Deja Dup Backups)
+Pika backup (home directory backups)
 Rewaita (easy gnome themeing)
 Sound Recorder
 Spotify (music streaming)
