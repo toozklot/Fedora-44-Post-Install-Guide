@@ -107,7 +107,7 @@ Vitals # requires lm_sensors package
 ## Apps
 * Compressed files support:
  `sudo dnf install -y unzip p7zip p7zip-plugins unrar`
-* These are Some Packages that I use:
+* Applications I use:
 ```
 Anki (flashcards)
 Btrfs Assistant (snapshots)
@@ -121,7 +121,6 @@ Gnome Tweaks
 Handbrake (video transcoder)
 Khronos (timers)
 Librewolf
-lm_sensors (required for vitals extention)
 Obsidian (notes)
 OpenCloud Desktop sync client (appimage)
 Parabolic (video downloader)
