@@ -95,7 +95,7 @@ sudo systemctl disable --now irqbalance # Disable
 
 ## Gnome Extensions
 * Extend the capabilities of your system
-```
+```bash
 Blur my shell
 Just perfection
 User themes
