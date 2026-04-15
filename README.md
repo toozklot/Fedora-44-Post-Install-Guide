@@ -96,10 +96,10 @@ sudo systemctl disable --now irqbalance # Disable
 ## Gnome Extensions
 * Extend the capabilities of your system
 ```
-[User Themes](https://extensions.gnome.org/extension/19/user-themes/) (for theming Gnome Shell)
-[Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/) (more tweaks)
-[Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) (for trading ram for looks)
-[Vitals](https://extensions.gnome.org/extension/1460/vitals/) (system monitoriting on the taskbar)
+Blur my shell
+Just perfection
+User themes
+Vitals # requires lm_sensors package
 ```
 ## Configure GNOME
 * Go through all settings in Gnome Settings, Gnome Tweaks, and installed extentions
