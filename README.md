@@ -68,6 +68,7 @@ flatpak uninstall --unused # removes unused runtimes and extentions
 ```
 
 ### Remove Gnome Calendar (optional)
+* Gnome Calendar uses tens of MB of ram at idle
 * `sudo dnf remove gnome-calendar`
 * If the above doesn't work it is installed as a flatpak:
 * `flatpak uninstall org.gnome.Calendar `
