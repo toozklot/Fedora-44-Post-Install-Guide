@@ -101,7 +101,7 @@ VS Codium
 * Use GDM Settings to theme GDM (the default is hideous)
 
 ## Firefox 
-* Librewold by default isn't the best experience
+* Firefox by default isn't the best experience
 
 ### Extentions
 * uBlock Origin (add blocker)
