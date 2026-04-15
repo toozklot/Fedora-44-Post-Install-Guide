@@ -56,6 +56,9 @@ sudo fwupdmgr update
 ### Remove more ram-hungry apps
 * Use Gnome Software to uninstall Calendar and Typing Booster
 
+### Disable service for mobile broadband devices & USB cellular modems
+* `sudo systemctl disable --now ModemManager.service`
+
 ## Gnome Extensions
 * Good utilities to extend the capabilities of your system (except BMS, which eats ram and just looks cool)
 * [User Themes](https://extensions.gnome.org/extension/19/user-themes/) (for theming gnome shell)
