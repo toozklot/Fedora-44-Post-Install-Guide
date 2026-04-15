@@ -19,7 +19,7 @@ sudo fwupdmgr update # Downloads and applies updates, or stages them for the nex
 
 ## [Flathub](https://flathub.org/en/setup/Fedora)
 
-* Fedora doesn't enable flatpak user-home installation by default, to enable it run:
+* Fedora doesn't enable flatpak user-home installation by default, enable it:
 * `flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
 
 ## AppImage
