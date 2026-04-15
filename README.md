@@ -74,6 +74,7 @@ flatpak uninstall --unused # removes unused runtimes and extentions
 * `flatpak uninstall org.gnome.Calendar `
 
 ### Disable ibus-typing-booster
+* This service also uses a large amount of ram relative to its usefullness
 * Open Gnome Settings -> Keyboard (or Region & Language)
 * Under Input Sources, click the three-dot menu and select the ibus-typing-booster entry
 * Remove it from the list
