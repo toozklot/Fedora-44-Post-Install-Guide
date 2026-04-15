@@ -100,6 +100,8 @@ sudo systemctl disable --now irqbalance # Disable
 [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) (for trading ram for looks)
 [Vitals](https://extensions.gnome.org/extension/1460/vitals/) (system monitoriting on the taskbar)
 ```
+## Configure GNOME
+* Go through all settings in Gnome Settings, Gnome Tweaks, and installed extentions
 
 ## Apps
 * Compressed files support:
@@ -132,10 +134,11 @@ VS Codium
 ```
   
 ## Theming
+* Choose dark or light mode and set the window border colour in Gnome Settings
 * Set a background in Gnome Tweaks
 * Configure Rewaita or install a theme from [Gnome Look](gnome-look.org)
 * Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
-* Change font using Gnome Tweaks
+* Change the system font using Gnome Tweaks
 * Theme GDM using GDM Settings
 
 ## Firefox 
@@ -143,7 +146,7 @@ VS Codium
 
 ### Ram usage
 * For systems with <= 8GB ram:
-* Lower the value of `dom.ipc.processCount.webIsolated` in `about:config`
+* Lower the value of `dom.ipc.processCount.webIsolated` in `about:config` to 2 or 3
 
 ### Extentions
 ```
@@ -160,7 +163,7 @@ uBlock Origin (ad blocker)
 * Install a Firefox theme
 
 ## Configure GNOME
-* Simply run through all settings in Gnome Settings, Gnome Tweaks, and Just Perfection
+* Go through all settings in Gnome Settings, Gnome Tweaks, and Just Perfection
 
 ## [Performance optimisation guide](https://github.com/winterofhell/fedora-optimizations) [go through this and cherry pick]
 * Most of the above guide likely isn't worth the hassle, but it's a good idea to look through it
