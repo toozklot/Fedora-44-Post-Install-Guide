@@ -86,7 +86,7 @@ flatpak uninstall --unused # removes unused runtimes and extentions
 ### [Install and configure gamemode](https://github.com/feralinteractive/gamemode)
 * gamemode automatically applies gaming optimisations whilst games are running
 
-### IRQ Balance (Intel iGPU only)
+### Disable IRQ Balance (Intel iGPU only)
 * [Explanation and justification](https://askubuntu.com/questions/1093163/is-irqbalance-a-bad-thing)
 ```bash
 sudo systemctl status irqbalance        # Check status
