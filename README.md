@@ -53,8 +53,10 @@ sudo fwupdmgr update
 * Gnome software autostarts on boot for some reason, even though it is not required on every boot unless you want it to do updates in the background, this takes at least 100MB of RAM upto 900MB (as reported anecdotically). You can stop it from autostarting by:
 * `sudo rm /etc/xdg/autostart/org.gnome.Software.desktop`
 
-### Remove Gnome Calendar
+### Remove Gnome Calendar (skip if you use GNOME Calendar)
 * `sudo dnf remove gnome-calendar`
+* If the above doesn't work it is installed as a flatpak:
+* flatpak uninstall org.gnome.Calendar 
 
 ### Disable ibus-typing-booster
 * Open GNOME Settings -> Keyboard (or Region & Language)
@@ -126,7 +128,7 @@ VS Codium
 * Wayback Machine
 
 ### Theme
-* Install a theme
+* Install a Firefox theme
 
 ## Configure GNOME
 * Simply run through all settings in GNOME Settings, GNOME Tweaks, and Just Perfection
