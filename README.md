@@ -57,14 +57,14 @@ sudo fwupdmgr update # Downloads and applies updates, or stages them for the nex
 sudo dnf install <package>
 sudo dnf update -y
 sudo dnf remove <package>
-sudo dnf autoremove -y
+sudo dnf autoremove -y # removes orphaned packages
 ```
 * Manage flatpaks manually:
 ```bash
-flatpak install <object>
+flatpak install <application>
 flatpak update -y
-flatpak remove <object>
-flatpak uninstall --unused
+flatpak remove <application>
+flatpak uninstall --unused # removes unused runtimes and extentions
 ```
 
 ### Remove Gnome Calendar (skip if you use GNOME Calendar)
