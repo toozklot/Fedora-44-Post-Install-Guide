@@ -102,24 +102,25 @@ VS Codium
 ```
   
 ## Theming
-* Configure Rewaita
-* Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
-* Install and use a sytem wide font using GNOME Tweaks
 * Set a background in GNOME Tweaks
-* Use GDM Settings to theme GDM (the default is hideous)
+* Configure Rewaita or install a theme from [GNOME-look](gnome-look.org)
+* Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
+* Change font using GNOME Tweaks
+* Theme GDM using GDM Settings
 
 ## Firefox 
-* Firefox by default isn't the best experience
+* Stock Firefox / Firefox forks can be greatly improved
+
+### Ram usage
+* For systems with <= 8GB ram:
+* Lower the value of `dom.ipc.processCount.webIsolated` in `about:config`
 
 ### Extentions
 * uBlock Origin (add blocker)
-* New Tab Override (for use with self hosted homepage)
 * Auto Tab Discard (save ram by sleeping unused tabs)
 * Consent-O-Matic (automatically fill out cookie consent forms)
 * Canvas Blocker (prevent fingerprinting via javascript)
 * Bitwarden Password Manager
-* ClearURLs
-* Clear Cache
 * Obsidian Web Clipper
 * Wayback Machine
 
