@@ -36,7 +36,6 @@ sudo fwupdmgr update # Downloads and applies updates, or stages them for the nex
 
 ### OpenH264 for Firefox
 * `sudo dnf install -y openh264 gstreamer1-plugin-openh264 mozilla-openh264`
-* `sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1`
 * set `media.gmp-provider.enabled` to true in about:config
 * After this enable the OpenH264 Plugin in Firefox's settings.
 
