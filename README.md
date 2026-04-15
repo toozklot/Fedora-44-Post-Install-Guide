@@ -60,7 +60,7 @@ sudo dnf remove <package>
 sudo dnf autoremove -y # removes orphaned packages
 ```
 * Manage flatpaks manually:
-```sh
+```bash
 flatpak install <application>
 flatpak update -y
 flatpak remove <application>
@@ -92,14 +92,16 @@ sudo systemctl disable --now irqbalance # Disable
 ```
 
 ## Gnome Extensions
-* Good utilities to extend the capabilities of your system
-* [User Themes](https://extensions.gnome.org/extension/19/user-themes/) (for theming Gnome Shell)
-* [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/) (more tweaks)
-* [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) (for trading ram for looks)
-* [Vitals](https://extensions.gnome.org/extension/1460/vitals/) (system monitoriting on the taskbar)
+* Extend the capabilities of your system
+```
+[User Themes](https://extensions.gnome.org/extension/19/user-themes/) (for theming Gnome Shell)
+[Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/) (more tweaks)
+[Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) (for trading ram for looks)
+[Vitals](https://extensions.gnome.org/extension/1460/vitals/) (system monitoriting on the taskbar)
+```
 
 ## Apps
-* Packages for Rar and 7z compressed files support:
+* Compressed files support:
  `sudo dnf install -y unzip p7zip p7zip-plugins unrar`
 * These are Some Packages that I use:
 ```
@@ -143,14 +145,15 @@ VS Codium
 * Lower the value of `dom.ipc.processCount.webIsolated` in `about:config`
 
 ### Extentions
-* Auto Tab Discard (save ram by sleeping unused tabs)
-* Bitwarden Password Manager
-* Canvas Blocker (prevent fingerprinting via javascript)
-* ClearURLs (removes tracking elements from URLs)
-* Consent-O-Matic (automatically fill out cookie consent forms)
-* Obsidian Web Clipper
-* uBlock Origin (ad blocker)
-* Wayback Machine
+```
+Auto Tab Discard (save ram by sleeping unused tabs)
+Bitwarden Password Manager
+Canvas Blocker (prevent fingerprinting via javascript)
+ClearURLs (removes tracking elements from URLs)
+Consent-O-Matic (automatically fill out cookie consent forms)
+Obsidian Web Clipper
+uBlock Origin (ad blocker)
+```
 
 ### Theme
 * Install a Firefox theme
