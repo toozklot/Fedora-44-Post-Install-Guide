@@ -84,6 +84,13 @@ flatpak uninstall --unused # removes unused runtimes and extentions
 ### [Install and configure gamemode](https://github.com/feralinteractive/gamemode)
 * gamemode automatically applies gaming optimisations whilst games are running
 
+### IRQ Balance (Intel iGPU)
+* [Why](https://askubuntu.com/questions/1093163/is-irqbalance-a-bad-thing)
+```bash
+sudo systemctl status irqbalance        # Check status
+sudo systemctl disable --now irqbalance # Disable
+```
+
 ## Gnome Extensions
 * Good utilities to extend the capabilities of your system
 * [User Themes](https://extensions.gnome.org/extension/19/user-themes/) (for theming Gnome Shell)
