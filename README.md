@@ -86,11 +86,11 @@ flatpak uninstall --unused
 * gamemode automatically applies gaming optimisations whilst games are running
 
 ## Gnome Extensions
-* Good utilities to extend the capabilities of your system (except BMS, which eats ram and just looks cool)
+* Good utilities to extend the capabilities of your system
 * [User Themes](https://extensions.gnome.org/extension/19/user-themes/) (for theming gnome shell)
 * [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
-* [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
-* [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
+* [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) (for trading ram for looks)
+* [Vitals](https://extensions.gnome.org/extension/1460/vitals/) (system monitoriting on the taskbar)
 
 ## Apps
 * Packages for Rar and 7z compressed files support:
