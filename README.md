@@ -167,7 +167,8 @@ uBlock Origin (ad blocker)
 
 ## [Performance optimisation guide](https://github.com/winterofhell/fedora-optimizations) [go through this and cherry pick]
 * WIP copying over stable optimisations only, plus steam optimisations
-* Sections to look into:
+* Sections remaining to look into:
 ```
-
+I/O Scheduler Configuration
+Steam optimisations
 ```
