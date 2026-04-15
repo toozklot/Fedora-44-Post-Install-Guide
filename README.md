@@ -49,9 +49,25 @@ sudo fwupdmgr update
 ## Optimisations
 * The tips below can allow you to squeeze out a little bit more performance from your system
 
-### Disable Gnome Software from Startup Apps [look into this]
-* Gnome software autostarts on boot for some reason, even though it is not required on every boot unless you want it to do updates in the background, this takes at least 100MB of RAM upto 900MB (as reported anecdotically). You can stop it from autostarting by:
-* `sudo rm /etc/xdg/autostart/org.gnome.Software.desktop`
+### Removing Gnome Software and installing and updating packages manually
+* Gnome software uses  over 100MB of ram at all times for the service it provides, which can be done manually in 30s once per day
+* Remove Gnome Software THIS NEEDS TESTING:
+	`sudo dnf remove gnome-software` 
+- Update packages manually:
+```
+sudo dnf update -y
+sudo dnf autoremove -y
+flatpak update -y
+flatpak uninstall --unused
+```
+- Install packages manually:
+	`sudo dnf install -y <package>`
+	`flatpak install <package>`  
+
+
+- Remove packages manually:
+	`sudo dnf remove <package>`
+	`flatpak remove <package>`
 
 ### Remove Gnome Calendar (skip if you use GNOME Calendar)
 * `sudo dnf remove gnome-calendar`
