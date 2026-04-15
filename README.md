@@ -51,7 +51,7 @@ sudo fwupdmgr update
 
 ### Removing Gnome Software and installing and updating packages manually
 * Gnome software uses  over 100MB of ram at all times for the service it provides, which can be done manually in 30s once per day
-* Remove Gnome Software THIS NEEDS TESTING:
+* Remove Gnome Software:
 	`sudo dnf remove gnome-software` 
 - Update packages manually:
 ```
