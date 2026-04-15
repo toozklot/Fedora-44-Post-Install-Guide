@@ -134,7 +134,7 @@ VS Codium
 ```
   
 ## Theming
-* Choose dark or light mode and set the window border colour in Gnome Settings
+* In Gnome Settings, choose dark or light mode and set the window border colour
 * Set a background in Gnome Tweaks
 * Configure Rewaita or install a theme from [Gnome Look](gnome-look.org)
 * Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
