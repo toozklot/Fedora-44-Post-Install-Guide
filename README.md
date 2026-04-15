@@ -166,4 +166,8 @@ uBlock Origin (ad blocker)
 * Go through all settings in Gnome Settings, Gnome Tweaks, and Just Perfection
 
 ## [Performance optimisation guide](https://github.com/winterofhell/fedora-optimizations) [go through this and cherry pick]
-* Most of the above guide likely isn't worth the hassle, but it's a good idea to look through it
+* WIP copying over stable optimisations only, plus steam optimisations
+* Sections to look into:
+```
+
+```
