@@ -60,7 +60,7 @@ sudo dnf remove <package>
 sudo dnf autoremove -y # removes orphaned packages
 ```
 * Manage flatpaks manually:
-```shell
+```sh
 flatpak install <application>
 flatpak update -y
 flatpak remove <application>
