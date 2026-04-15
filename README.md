@@ -47,6 +47,7 @@ sudo fwupdmgr update      # Downloads and applies updates, or stages them for th
 
 ## Optimisations
 * The tips below can allow you to squeeze out a little bit more performance from your system
+* AMD and Nvidea optmimisations are not included but can be found [here](https://github.com/winterofhell/fedora-optimizations)
 
 ### Removing Gnome Software and installing and updating packages manually
 * Gnome software uses  over 100MB of ram at all times for the service it provides, which can be done manually in 30s once per day
@@ -85,8 +86,8 @@ flatpak uninstall --unused # removes unused runtimes and extentions
 ### [Install and configure gamemode](https://github.com/feralinteractive/gamemode)
 * gamemode automatically applies gaming optimisations whilst games are running
 
-### IRQ Balance (Intel iGPU)
-* [Why](https://askubuntu.com/questions/1093163/is-irqbalance-a-bad-thing)
+### IRQ Balance (Intel iGPU only)
+* [Explanation and justification](https://askubuntu.com/questions/1093163/is-irqbalance-a-bad-thing)
 ```bash
 sudo systemctl status irqbalance        # Check status
 sudo systemctl disable --now irqbalance # Disable
@@ -142,7 +143,7 @@ VS Codium
 * Theme GDM using GDM Settings
 
 ## Firefox 
-* Stock Firefox / Firefox forks can be greatly improved
+* Firefox (and forks) benefit greatly from extentions and other tweaks
 
 ### Ram usage
 * For systems with <= 8GB ram:
@@ -160,13 +161,13 @@ uBlock Origin (ad blocker)
 ```
 
 ### Theme
-* Install a Firefox theme
+* Install a Firefox theme in about:addons
 
 ## Configure GNOME
 * Go through all settings in Gnome Settings, Gnome Tweaks, and Just Perfection
 
 ## [Performance optimisation guide](https://github.com/winterofhell/fedora-optimizations) [go through this and cherry pick]
-* WIP copying over stable optimisations only, plus steam optimisations
+* WIP copying over stable stuff
 * Sections remaining to look into:
 ```
 I/O Scheduler Configuration
