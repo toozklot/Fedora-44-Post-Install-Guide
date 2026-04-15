@@ -32,7 +32,7 @@ sudo fwupdmgr update      # Downloads and applies updates, or stages them for th
 * Install these to get proper multimedia playback.
 
 ## [H/W Video Acceleration](https://fedoraproject.org/wiki/Hardware_Video_Acceleration)
-* Helps decrease load on the CPU when watching videos online by alloting the rendering to the dGPU/iGPU. Increases battery life on iGPU laptops.
+* Helps decrease load on the CPU when watching videos online by alloting the rendering to the dGPU/iGPU. Increases battery life on laptops with iGPUs
 
 ### OpenH264 for Firefox
 * `sudo dnf install -y openh264 gstreamer1-plugin-openh264 mozilla-openh264`
