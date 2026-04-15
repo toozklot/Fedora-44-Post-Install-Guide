@@ -53,14 +53,14 @@ sudo fwupdmgr update # Downloads and applies updates, or stages them for the nex
 * Remove Gnome Software:
 * `sudo dnf remove gnome-software` 
 * Manage packages manually:
-```
+```bash
 sudo dnf install <package>
 sudo dnf update -y
 sudo dnf remove <package>
 sudo dnf autoremove -y # removes orphaned packages
 ```
 * Manage flatpaks manually:
-```bash
+```shell
 flatpak install <application>
 flatpak update -y
 flatpak remove <application>
