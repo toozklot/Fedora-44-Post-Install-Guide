@@ -67,7 +67,7 @@ sudo fwupdmgr update
 * `sudo systemctl disable --now ModemManager.service`
 
 ### [Install and configure gamemode](https://github.com/feralinteractive/gamemode)
-* Gamemode automatically applies gaming optimisations whilst games are running
+* gamemode automatically applies gaming optimisations whilst games are running
 
 ## Gnome Extensions
 * Good utilities to extend the capabilities of your system (except BMS, which eats ram and just looks cool)
