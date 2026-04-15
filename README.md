@@ -66,6 +66,9 @@ sudo fwupdmgr update
 ### Disable service for mobile broadband devices & USB cellular modems
 * `sudo systemctl disable --now ModemManager.service`
 
+### [Install and configure gamemode](https://github.com/feralinteractive/gamemode)
+* Gamemode automatically applies gaming optimisations whilst games are running
+
 ## Gnome Extensions
 * Good utilities to extend the capabilities of your system (except BMS, which eats ram and just looks cool)
 * [User Themes](https://extensions.gnome.org/extension/19/user-themes/) (for theming gnome shell)
