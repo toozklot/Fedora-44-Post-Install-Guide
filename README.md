@@ -53,8 +53,13 @@ sudo fwupdmgr update
 * Gnome software autostarts on boot for some reason, even though it is not required on every boot unless you want it to do updates in the background, this takes at least 100MB of RAM upto 900MB (as reported anecdotically). You can stop it from autostarting by:
 * `sudo rm /etc/xdg/autostart/org.gnome.Software.desktop`
 
-### Remove more ram-hungry apps
-* Use Gnome Software to uninstall Calendar and Typing Booster
+### Remove Gnome Calendar
+* `sudo dnf remove gnome-calendar`
+
+### Disable ibus-typing-booster
+* Open GNOME Settings -> Keyboard (or Region & Language)
+* Under Input Sources, click the three-dot menu and select the ibus-typing-booster entry
+* Remove it from the list
 
 ### Disable service for mobile broadband devices & USB cellular modems
 * `sudo systemctl disable --now ModemManager.service`
