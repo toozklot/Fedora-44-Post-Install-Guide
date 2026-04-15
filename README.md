@@ -10,7 +10,7 @@ Things to do after installing Fedora 44
 
 ## [Firmware](github.com/fwupd/fwupd)
 * If your system supports firmware update delivery through lvfs, update your device firmware:
-```sh
+```bash
 sudo fwupdmgr get-devices # Lists detected devices
 sudo fwupdmgr refresh # Downloads latest lvfs metadata
 sudo fwupdmgr get-updates # Displays available updates
@@ -52,22 +52,21 @@ sudo fwupdmgr update # Downloads and applies updates, or stages them for the nex
 ### Removing Gnome Software and installing and updating packages manually
 * Gnome software uses  over 100MB of ram at all times for the service it provides, which can be done manually in 30s once per day
 * Remove Gnome Software:
-	`sudo dnf remove gnome-software` 
-- Update packages manually:
+* `sudo dnf remove gnome-software` 
+* Manage packages manually:
 ```
+sudo dnf install <package>
 sudo dnf update -y
+sudo dnf remove <package>
 sudo dnf autoremove -y
+```
+* Manage flatpaks manually:
+```bash
+flatpak install <object>
 flatpak update -y
+flatpak remove <object>
 flatpak uninstall --unused
 ```
-- Install packages manually:
-	`sudo dnf install -y <package>`
-	`flatpak install <package>`  
-
-
-- Remove packages manually:
-	`sudo dnf remove <package>`
-	`flatpak remove <package>`
 
 ### Remove Gnome Calendar (skip if you use GNOME Calendar)
 * `sudo dnf remove gnome-calendar`
