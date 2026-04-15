@@ -24,7 +24,7 @@ sudo fwupdmgr update      # Downloads and applies updates, or stages them for th
 
 ## AppImage
 
-* For Appimage support install fuse:
+* For AppImage support install fuse:
 * `sudo dnf install fuse-libs`
 * You can also install an AppImage manager like [Gearlever](https://flathub.org/apps/it.mijorus.gearlever) for neater management
 
