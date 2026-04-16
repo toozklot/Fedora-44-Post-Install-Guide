@@ -127,7 +127,7 @@ GDM Settings
 Gnome Tweaks
 Handbrake (video transcoder)
 Khronos (timers)
-Librewolf
+Librewolf (privacy focused Firefox fork)
 Obsidian (notes)
 OpenCloud Desktop sync client (appimage)
 Parabolic (video downloader)
