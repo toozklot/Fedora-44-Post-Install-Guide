@@ -112,8 +112,8 @@ Vitals # requires lm_sensors package
 ## Install Apps
 * Compressed files support:
  `sudo dnf install -y unzip p7zip p7zip-plugins unrar`
-* Install [Tailscale](https://tailscale.com/docs/install/linux) for an easy, secure connection to your NAS / server
-* Applications I use:
+
+### Applications to install:
 ```
 Anki (flashcards)
 Btrfs Assistant (snapshots)
@@ -137,6 +137,11 @@ Steam (install the "steam-devices" package for controller support)
 Upscaler
 VS Codium
 ```
+
+### Install [Tailscale](https://tailscale.com/docs/install/linux) for an easy, secure connection to a NAS / server
+
+### Remove unused default Gnome apps
+* Remove default Gnome apps you wont use
 
 ## Firefox configuration
 * Firefox (and forks) benefit greatly from extentions and other tweaks
