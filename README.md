@@ -67,7 +67,7 @@ flatpak uninstall --unused # removes unused runtimes and extentions
 
 ### Disable ibus-typing-booster
 * This service also uses a large amount of ram relative to its usefullness
-* Open Gnome Settings -> Keyboard (or Region & Language)
+* Open Gnome Settings → Keyboard (or Region & Language)
 * Under Input Sources, click the three-dot menu and select the ibus-typing-booster entry
 * Remove it from the list
 
@@ -96,7 +96,7 @@ flatpak install flathub com.valvesoftware.Steam
 sudo dnf install mangohud gamescope
 flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud
 ```
-* Launch options (paste single line into Steam → Properties → Launch Options). Replace 2560x1440 and 280 with your monitor native resolution and Hz; set fps_limit = Hz − 3.
+* Launch options (paste single line into Steam → Library → Game → Properties → Launch Options). Replace 2560x1440 and 280 with your monitor native resolution and Hz; set fps_limit = Hz − 3.
 * Non‑HDR:
 `MANGOHUD_CONFIG="fps_limit=277,no_display" mangohud LD_PRELOAD="" PROTON_USE_NTSYNC=1 gamemoderun gamescope -W 2560 -H 1440 -r 280 --force-grab-cursor --adaptive-sync -f -- %command%`
 * Auto SDR→HDR:
