@@ -80,8 +80,9 @@ flatpak uninstall --unused # removes unused runtimes and extentions
 * Under Input Sources, click the three-dot menu and select the ibus-typing-booster entry
 * Remove it from the list
 
-### Disable service for mobile broadband devices & USB cellular modems
-* `sudo systemctl disable --now ModemManager.service`
+### Disable unused services
+* Do not do this step if you need geolocation and cellular services respectively
+* `sudo systemctl disable --now geoclue.service ModemManager.service`
 
 ### [Install and configure gamemode](https://github.com/feralinteractive/gamemode)
 * gamemode automatically applies gaming optimisations whilst games are running
@@ -101,7 +102,7 @@ Just perfection
 User themes
 Vitals # requires lm_sensors package
 ```
-## Configure GNOME
+## Configure Gnome
 * Go through all settings in Gnome Settings, Gnome Tweaks, and installed extentions
 
 ## Apps
