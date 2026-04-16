@@ -21,7 +21,6 @@ sudo fwupdmgr update      # Downloads and applies updates, or stages them for th
 ```
 
 ## [Flathub](https://flathub.org/en/setup/Fedora)
-
 * Fedora doesn't enable flatpak user-home installation by default, enable it:
 * `flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
 
@@ -36,11 +35,6 @@ sudo fwupdmgr update      # Downloads and applies updates, or stages them for th
 
 ## [H/W Video Acceleration](https://fedoraproject.org/wiki/Hardware_Video_Acceleration)
 * Helps decrease load on the CPU when watching videos online by alloting the rendering to the dGPU/iGPU. Increases battery life on laptops with iGPUs
-
-### OpenH264 for Firefox
-* `sudo dnf install -y openh264 gstreamer1-plugin-openh264 mozilla-openh264`
-* set `media.gmp-provider.enabled` to true in `about:config`
-* Enable the OpenH264 plugin in Firefox settings
 
 ## [Tailscale](https://tailscale.com/docs/install/linux)
 * Install Tailscale for an easy, secure connection to your NAS / server
@@ -148,6 +142,12 @@ VS Codium
 
 ## Firefox 
 * Firefox (and forks) benefit greatly from extentions and other tweaks
+
+
+### OpenH264 for Firefox
+* `sudo dnf install -y openh264 gstreamer1-plugin-openh264 mozilla-openh264`
+* set `media.gmp-provider.enabled` to true in `about:config`
+* Enable the OpenH264 plugin in Firefox settings
 
 ### Ram usage
 * For systems struggling with ram:
