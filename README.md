@@ -45,7 +45,7 @@ sudo fwupdmgr update      # Downloads and applies updates, or stages them for th
 ## [Tailscale](https://tailscale.com/docs/install/linux)
 * Install Tailscale for an easy, secure connection to your NAS / server
 
-## Optimisations
+## System optimisation
 * The tips below can allow you to squeeze out a little bit more performance from your system
 * AMD and Nvidea optimisations are not included but can be found [here](https://github.com/winterofhell/fedora-optimizations) (research before running commands)
 
@@ -84,15 +84,19 @@ flatpak uninstall --unused # removes unused runtimes and extentions
 * Do not do this step if you need geolocation and cellular services respectively
 * `sudo systemctl disable --now geoclue.service ModemManager.service`
 
-### [Install and configure gamemode](https://github.com/feralinteractive/gamemode)
-* gamemode automatically applies gaming optimisations whilst games are running
-
 ### Disable IRQ Balance (Intel iGPU only)
 * [Explanation and justification](https://askubuntu.com/questions/1093163/is-irqbalance-a-bad-thing)
 ```bash
 sudo systemctl status irqbalance        # Check status
 sudo systemctl disable --now irqbalance # Disable
 ```
+
+## Gaming optimisation
+
+### [Install and configure gamemode](https://github.com/feralinteractive/gamemode)
+* gamemode automatically applies gaming optimisations whilst games are running
+
+### Steam optimisation
 
 ## Gnome Extensions
 * Extend the capabilities of your system
@@ -165,6 +169,3 @@ uBlock Origin (ad blocker)
 
 ## Configure GNOME
 * Go through all settings in Gnome Settings, Gnome Tweaks, and Just Perfection
-
-## Steam optimisations
-* Work in progress
