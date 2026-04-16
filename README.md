@@ -1,6 +1,9 @@
 # Fedora 44 Post Install Guide
 Things to do after installing Fedora 44
 
+## Set Hostname
+* `hostnamectl set-hostname YOUR_HOSTNAME`
+
 ## [RPM Fusion & app-stream metadata](https://rpmfusion.org/Configuration#Command_Line_Setup_using_rpm)
 * Add the RPM Fusion repositories and app-stream metadata
 
@@ -37,10 +40,7 @@ sudo fwupdmgr update      # Downloads and applies updates, or stages them for th
 ### OpenH264 for Firefox
 * `sudo dnf install -y openh264 gstreamer1-plugin-openh264 mozilla-openh264`
 * set `media.gmp-provider.enabled` to true in `about:config`
-* After this enable the OpenH264 Plugin in Firefox's settings.
-
-## Set Hostname
-* `hostnamectl set-hostname YOUR_HOSTNAME`
+* Enable the OpenH264 plugin in Firefox settings
 
 ## [Tailscale](https://tailscale.com/docs/install/linux)
 * Install Tailscale for an easy, secure connection to your NAS / server
