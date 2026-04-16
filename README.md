@@ -168,4 +168,4 @@ uBlock Origin (ad blocker)
 ```
 
 ### Theme
-* Install a Firefox theme in about:addons
+* Install a Firefox theme in `about:addons`
