@@ -138,7 +138,7 @@ Upscaler
 VS Codium
 ```
 
-### [Tailscale](https://tailscale.com/docs/install/linux) for an easy, secure connection to a NAS / server
+### [Install Tailscale](https://tailscale.com/docs/install/linux) for an easy, secure connection to a NAS / server
 
 ### Remove unused default Gnome apps
 * Remove default Gnome apps you wont use
