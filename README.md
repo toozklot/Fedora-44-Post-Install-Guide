@@ -87,7 +87,18 @@ sudo systemctl disable --now irqbalance # Disable
 ### [Install and configure gamemode](https://github.com/feralinteractive/gamemode)
 * gamemode automatically applies gaming optimisations whilst games are running
 
-### Steam optimisation
+### Steam optimisation (written for intel integrated graphics, taken from [here](https://github.com/winterofhell/fedora-optimizations)
+* Install Steam (flatpak is best) as well as mangohud and gamescope:
+```
+flatpak install flathub com.valvesoftware.Steam
+sudo dnf install mangohud gamescope
+flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud
+```
+* Launch options (paste single line into Steam → Properties → Launch Options). Replace 2560x1440 and 280 with your monitor native resolution and Hz; set fps_limit = Hz − 3.
+* Non‑HDR:
+`MANGOHUD_CONFIG="fps_limit=277,no_display" mangohud LD_PRELOAD="" PROTON_USE_NTSYNC=1 gamemoderun gamescope -W 2560 -H 1440 -r 280 --force-grab-cursor --adaptive-sync -f -- %command%`
+* Auto SDR→HDR:
+`MANGOHUD_CONFIG="fps_limit=277,no_display" mangohud LD_PRELOAD="" PROTON_USE_NTSYNC=1 gamemoderun gamescope -W 2560 -H 1440 -r 280 --hdr-enabled --hdr-itm-enabled --hdr-itm-target-nits 1000 --hdr-sdr-content-nits 203 --force-grab-cursor --adaptive-sync --sharpness 2 -f -- %command%`
 
 ## Configure Gnome
 * Go through all settings in Gnome Settings, Gnome Tweaks, and installed extentions
