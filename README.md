@@ -117,7 +117,7 @@ Vitals # requires lm_sensors package
 ```
 Anki (flashcards)
 Btrfs Assistant (snapshots)
-Discord
+GoofCord (Discord client)
 Drawing (ms paint alternative)
 Extension Manager
 Flatseal (flatpack permission manager)
