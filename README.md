@@ -112,6 +112,7 @@ flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud
 ```bash
 Blur my shell # note: high ram usage
 Just perfection
+Tiling Shell
 User themes
 Vitals # requires lm_sensors package
 ```
