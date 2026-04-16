@@ -166,6 +166,3 @@ uBlock Origin (ad blocker)
 
 ### Theme
 * Install a Firefox theme in about:addons
-
-## Configure GNOME
-* Go through all settings in Gnome Settings, Gnome Tweaks, and Just Perfection
