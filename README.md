@@ -36,9 +36,6 @@ sudo fwupdmgr update      # Downloads and applies updates, or stages them for th
 ## [H/W Video Acceleration](https://fedoraproject.org/wiki/Hardware_Video_Acceleration)
 * Helps decrease load on the CPU when watching videos online by alloting the rendering to the dGPU/iGPU. Increases battery life on laptops with iGPUs
 
-## [Tailscale](https://tailscale.com/docs/install/linux)
-* Install Tailscale for an easy, secure connection to your NAS / server
-
 ## System optimisation
 * The tips below can allow you to squeeze out a little bit more performance from your system
 * AMD and Nvidea optimisations are not included but can be found [here](https://github.com/winterofhell/fedora-optimizations) (research before running commands)
@@ -131,7 +128,10 @@ Steam (install the "steam-devices" package for controller support)
 Upscaler
 VS Codium
 ```
-  
+
+## [Tailscale](https://tailscale.com/docs/install/linux)
+* Install Tailscale for an easy, secure connection to your NAS / server
+
 ## Theming
 * In Gnome Settings, choose dark or light mode and set the window border colour
 * Set a background in Gnome Tweaks
