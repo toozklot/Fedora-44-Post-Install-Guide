@@ -89,16 +89,18 @@ sudo systemctl disable --now irqbalance # Disable
 
 ### Steam optimisation
 
-## Gnome Extensions
+## Configure Gnome
+* Go through all settings in Gnome Settings, Gnome Tweaks, and installed extentions
+
+### Gnome Extensions
 * Extend the capabilities of your system
+* Make sure that `extention-manager` is installed
 ```bash
 Blur my shell # note: high ram usage
 Just perfection
 User themes
 Vitals # requires lm_sensors package
 ```
-## Configure Gnome
-* Go through all settings in Gnome Settings, Gnome Tweaks, and installed extentions
 
 ## Apps
 * Compressed files support:
