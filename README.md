@@ -96,7 +96,7 @@ sudo systemctl disable --now irqbalance # Disable
 ## Gnome Extensions
 * Extend the capabilities of your system
 ```bash
-Blur my shell
+Blur my shell # note: high ram usage
 Just perfection
 User themes
 Vitals # requires lm_sensors package
