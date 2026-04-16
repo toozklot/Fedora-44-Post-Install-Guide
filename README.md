@@ -39,6 +39,7 @@ sudo fwupdmgr update      # Downloads and applies updates, or stages them for th
 ## System optimisation
 * The tips below can allow you to squeeze out a little bit more performance from your system
 * AMD and Nvidea optimisations are not included but can be found [here](https://github.com/winterofhell/fedora-optimizations) (research before running commands)
+* Consider building ananicy-cpp for more performance (instructions in above link)
 
 ### Remove Gnome Software and manage packages manually
 * Gnome software uses  over 100MB of ram at all times for the service it provides, which can be done manually in 30s once per day
