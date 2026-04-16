@@ -171,7 +171,7 @@ VS Codium
 * For systems struggling with ram:
 * Lower the value of `dom.ipc.processCount.webIsolated` in `about:config` to 2 or 3
 
-### Extentions
+### Firefox extentions
 ```
 Auto Tab Discard (save ram by sleeping unused tabs)
 Bitwarden Password Manager
