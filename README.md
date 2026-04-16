@@ -103,12 +103,11 @@ Vitals # requires lm_sensors package
 ```
 
 ### Theming
-* In Gnome Settings, choose dark or light mode and set the window border colour
-* Set a background in Gnome Tweaks
-* Configure Rewaita or install a theme from [Gnome Look](gnome-look.org)
+* In Gnome Settings: choose dark or light mode and set the window border colour
+* In Gnome Tweaks: change the defualt wallpaper and system font
+* In GDM Settings: customise Gnome Display Manager (login manager)
+* Configure Rewaita (see below) or install a theme from [Gnome Look](gnome-look.org)
 * Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
-* Change the system font using Gnome Tweaks
-* Theme GDM using GDM Settings
 
 ## Install Apps
 * Compressed files support:
@@ -140,7 +139,7 @@ Upscaler
 VS Codium
 ```
 
-## Firefox 
+## Firefox configuration
 * Firefox (and forks) benefit greatly from extentions and other tweaks
 
 
