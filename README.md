@@ -105,6 +105,7 @@ Vitals # requires lm_sensors package
 ## Apps
 * Compressed files support:
  `sudo dnf install -y unzip p7zip p7zip-plugins unrar`
+* Install [Tailscale](https://tailscale.com/docs/install/linux) for an easy, secure connection to your NAS / server
 * Applications I use:
 ```
 Anki (flashcards)
@@ -130,9 +131,6 @@ Steam (install the "steam-devices" package for controller support)
 Upscaler
 VS Codium
 ```
-
-## [Tailscale](https://tailscale.com/docs/install/linux)
-* Install Tailscale for an easy, secure connection to your NAS / server
 
 ## Theming
 * In Gnome Settings, choose dark or light mode and set the window border colour
