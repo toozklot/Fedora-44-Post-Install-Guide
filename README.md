@@ -86,6 +86,7 @@ sudo systemctl disable --now irqbalance # Disable
 
 ### [Install and configure gamemode](https://github.com/feralinteractive/gamemode)
 * gamemode automatically applies gaming optimisations whilst games are running
+* Test install: `gamemoded -t`
 
 ### Steam optimisation (written for intel integrated graphics, taken from [here](https://github.com/winterofhell/fedora-optimizations)
 * Install Steam (flatpak is best) as well as mangohud and gamescope:
