@@ -102,6 +102,14 @@ User themes
 Vitals # requires lm_sensors package
 ```
 
+### Theming
+* In Gnome Settings, choose dark or light mode and set the window border colour
+* Set a background in Gnome Tweaks
+* Configure Rewaita or install a theme from [Gnome Look](gnome-look.org)
+* Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
+* Change the system font using Gnome Tweaks
+* Theme GDM using GDM Settings
+
 ## Apps
 * Compressed files support:
  `sudo dnf install -y unzip p7zip p7zip-plugins unrar`
@@ -131,14 +139,6 @@ Steam (install the "steam-devices" package for controller support)
 Upscaler
 VS Codium
 ```
-
-## Theming
-* In Gnome Settings, choose dark or light mode and set the window border colour
-* Set a background in Gnome Tweaks
-* Configure Rewaita or install a theme from [Gnome Look](gnome-look.org)
-* Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
-* Change the system font using Gnome Tweaks
-* Theme GDM using GDM Settings
 
 ## Firefox 
 * Firefox (and forks) benefit greatly from extentions and other tweaks
