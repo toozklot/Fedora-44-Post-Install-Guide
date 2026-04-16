@@ -110,7 +110,7 @@ Vitals # requires lm_sensors package
 * Change the system font using Gnome Tweaks
 * Theme GDM using GDM Settings
 
-## Apps
+## Install Apps
 * Compressed files support:
  `sudo dnf install -y unzip p7zip p7zip-plugins unrar`
 * Install [Tailscale](https://tailscale.com/docs/install/linux) for an easy, secure connection to your NAS / server
