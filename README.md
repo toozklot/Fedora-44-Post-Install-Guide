@@ -102,9 +102,9 @@ Vitals # requires lm_sensors package
 
 ### Theming
 * In Gnome Settings: choose dark or light mode and set the window border colour
-* In Gnome Tweaks: change the defualt wallpaper and system font
+* In Gnome Tweaks: change the defualt wallpaper and configure system fonts
 * In GDM Settings: customise Gnome Display Manager (login manager)
-* Install and configure Rewaita or install a theme from [Gnome Look](gnome-look.org)
+* Install and configure Rewaita
 * Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
 
 ## Install Apps
@@ -114,6 +114,7 @@ Vitals # requires lm_sensors package
 ### Applications to install:
 ```
 Anki (flashcards)
+btop++
 Btrfs Assistant (snapshots)
 GoofCord (Discord client)
 Drawing (ms paint alternative)
