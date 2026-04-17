@@ -80,7 +80,7 @@ sudo systemctl disable --now irqbalance # Disable
 * Optionally, [install and enable mangohud](https://docs.fedoraproject.org/en-US/gaming/monitoring/) for benchmarking
 * Add launch options to games via Steam → Library → Game → Properties → Launch Options
 * Example steam launch options: replace 2560x1440 and 144 with your monitor native resolution and Hz 
-`gamescope -b -W 2560 -H 1440 -r 144 --force-grab-cursor --adaptive-sync --hdr-enabled -- %command%`
+`gamescope -f -W 2560 -H 1440 -r 144 --force-grab-cursor --adaptive-sync --hdr-enabled -- %command%`
 * Window options: `-f` for fullscreen, `-b` for borderless
 * Only include `adaptive-sync` if your dislplay supports FreeSync / G-SYNC
 * Only include `hdr-enable` if both your game and display support it
