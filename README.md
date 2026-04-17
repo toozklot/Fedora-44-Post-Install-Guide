@@ -4,8 +4,9 @@ Things to do after installing Fedora 44
 ## Set Hostname
 * `hostnamectl set-hostname YOUR_HOSTNAME`
 
-## [RPM Fusion & app-stream metadata](https://rpmfusion.org/Configuration#Command_Line_Setup_using_rpm)
+## [RPM Fusion & flathub remote repos](https://rpmfusion.org/Configuration#Command_Line_Setup_using_rpm)
 * Add the RPM Fusion repositories and app-stream metadata
+* [flathub setup](https://flatpak.org/setup/Fedora)
 
 ## Update 
 * `sudo dnf -y update`
