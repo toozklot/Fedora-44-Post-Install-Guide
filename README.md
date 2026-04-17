@@ -14,7 +14,7 @@ Things to do after installing Fedora 44
 * `sudo dnf -y update`
 * Reboot
 
-## [Firmware](github.com/fwupd/fwupd)
+## [Firmware](https://github.com/fwupd/fwupd)
 * If your system supports firmware update delivery through lvfs, update your device firmware:
 ```bash
 sudo fwupdmgr get-devices # Lists detected devices
