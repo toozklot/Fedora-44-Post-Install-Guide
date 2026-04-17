@@ -75,19 +75,16 @@ sudo systemctl status irqbalance        # Check status
 sudo systemctl disable --now irqbalance # Disable
 ```
 
-## [Steam](https://docs.fedoraproject.org/en-US/gaming/proton/) and [gamescope](https://docs.fedoraproject.org/en-US/gaming/gamescope/) installation
-* Install and configure steam
-* Optionally, install [mangohud](https://docs.fedoraproject.org/en-US/gaming/monitoring/) for performance monitoring
-* Basic configurations below, more documentation / advice in the Arch wiki: [gamescope](https://wiki.archlinux.org/title/Gamescope) and [mangohud](https://wiki.archlinux.org/title/MangoHud)
-```
-sudo dnf install mangohud gamescope
-flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud # if steam is installed as a flatpak (must also be installed with dnf)
-```
-* Launch options (paste single line into Steam → Library → Game → Properties → Launch Options). Replace 2560x1440 and 144 with your monitor native resolution and Hz; set fps_limit = Hz − 3.
-* Non‑HDR:
-`MANGOHUD_CONFIG="fps_limit=141,no_display" mangohud LD_PRELOAD="" PROTON_USE_NTSYNC=1 gamescope -W 2560 -H 1440 -r 144 --force-grab-cursor --adaptive-sync -f -- %command%`
-* Auto SDR→HDR:
-`MANGOHUD_CONFIG="fps_limit=141,no_display" mangohud LD_PRELOAD="" PROTON_USE_NTSYNC=1 gamescope -W 2560 -H 1440 -r 144 --hdr-enabled --hdr-itm-enabled --hdr-itm-target-nits 1000 --hdr-sdr-content-nits 203 --force-grab-cursor --adaptive-sync --sharpness 2 -f -- %command%`
+## Steam installation and optimisation
+* [Install Steam](https://docs.fedoraproject.org/en-US/gaming/proton/)
+* Optionally, install [mangohud](https://docs.fedoraproject.org/en-US/gaming/monitoring/) for benchmarking
+* Add launch options to games via Steam → Library → Game → Properties → Launch Options
+* Example steam launch options: replace 2560x1440 and 144 with your monitor native resolution and Hz 
+`gamescope -W 2560 -H 1440 -r 144 --force-grab-cursor --adaptive-sync --hdr-enabled -f -- %command%`
+* Only include `adaptive-sync` if your dislplay supports FreeSync / G-SYNC
+* Only include `hdr-enable` if both your game and display support it
+  
+* [More on launch options](https://docs.fedoraproject.org/en-US/gaming/gamescope/)
 
 ## Configure Gnome
 * Go through all settings in Gnome Settings, Gnome Tweaks, and installed extentions
