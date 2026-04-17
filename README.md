@@ -20,10 +20,6 @@ sudo fwupdmgr get-updates # Displays available updates
 sudo fwupdmgr update      # Downloads and applies updates, or stages them for the next reboot
 ```
 
-## [Flathub](https://flathub.org/en/setup/Fedora)
-* Fedora doesn't enable flatpak user-home installation by default, enable it:
-* `flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
-
 ## AppImage
 
 * For AppImage support install fuse:
