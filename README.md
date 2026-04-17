@@ -75,10 +75,10 @@ sudo systemctl status irqbalance        # Check status
 sudo systemctl disable --now irqbalance # Disable
 ```
 
-### Steam optimisation (original guide [here](https://github.com/winterofhell/fedora-optimizations), cherry picked for Intel iGPU and stability)
-* Ensure steam is installed as a flatpak
-* Install mangohud to limit fps and gamescope, a Wayland micro-compositor which is superior to steamcompmgr
-* Basic configurations below, see docs on [gamescope](https://wiki.archlinux.org/title/Gamescope) and [mangohud](https://wiki.archlinux.org/title/MangoHud)
+## Steam [installation](https://docs.fedoraproject.org/en-US/gaming/proton/) and [gamescope](https://docs.fedoraproject.org/en-US/gaming/gamescope/)
+* Install and configure steam
+* Optionally, install [mangohud](https://docs.fedoraproject.org/en-US/gaming/monitoring/) for performance monitoring
+* Basic configurations below, more documentation / advice in the Arch wiki: [gamescope](https://wiki.archlinux.org/title/Gamescope) and [mangohud](https://wiki.archlinux.org/title/MangoHud)
 ```
 sudo dnf install mangohud gamescope
 flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud # if steam is installed as a flatpak (must also be installed with dnf)
@@ -134,7 +134,6 @@ Pika Backup (home directory backups)
 Rewaita (easy gnome themeing NOTE: uses 60MB ram)
 Sound Recorder
 Spotify (music streaming)
-Steam (install the "steam-devices" package for controller support)
 Upscaler
 VS Codium
 ```
