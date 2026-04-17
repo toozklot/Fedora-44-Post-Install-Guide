@@ -75,7 +75,7 @@ sudo systemctl status irqbalance        # Check status
 sudo systemctl disable --now irqbalance # Disable
 ```
 
-## Steam [installation](https://docs.fedoraproject.org/en-US/gaming/proton/) and [gamescope](https://docs.fedoraproject.org/en-US/gaming/gamescope/)
+## [Steam](https://docs.fedoraproject.org/en-US/gaming/proton/) and [gamescope](https://docs.fedoraproject.org/en-US/gaming/gamescope/) installation
 * Install and configure steam
 * Optionally, install [mangohud](https://docs.fedoraproject.org/en-US/gaming/monitoring/) for performance monitoring
 * Basic configurations below, more documentation / advice in the Arch wiki: [gamescope](https://wiki.archlinux.org/title/Gamescope) and [mangohud](https://wiki.archlinux.org/title/MangoHud)
