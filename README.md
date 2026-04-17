@@ -15,19 +15,12 @@ Things to do after installing Fedora 44
 * Reboot
 
 ## [Firmware](https://github.com/fwupd/fwupd)
-* If your system supports firmware update delivery through lvfs, update your device firmware:
-```bash
-sudo fwupdmgr get-devices # Lists detected devices
-sudo fwupdmgr refresh     # Downloads latest lvfs metadata
-sudo fwupdmgr get-updates # Displays available updates
-sudo fwupdmgr update      # Downloads and applies updates, or stages them for the next reboot
-```
+* If your system supports firmware update delivery through lvfs, update your device firmware
 
 ## AppImage
 
-* For AppImage support install fuse:
-* `sudo dnf install fuse-libs`
-* You can also install an AppImage manager like [Gear Lever](https://flathub.org/apps/it.mijorus.gearlever) for neater management
+* For AppImage support [install FUSE](https://github.com/AppImage/AppImageKit/wiki/FUSE):
+* You can also install an AppImage manager like [Gear Lever](https://flathub.org/apps/it.mijorus.gearlever) for GUI management
 
 ## [Media Codecs](https://rpmfusion.org/Configuration)
 * Install these to get proper multimedia playback.
