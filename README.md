@@ -17,7 +17,7 @@ Things to do after installing Fedora 44
 ## [Firmware](https://github.com/fwupd/fwupd)
 * If your system supports firmware update delivery through lvfs, update your device firmware
 
-## AppImage
+## AppImage support
 
 * For AppImage support [install FUSE](https://github.com/AppImage/AppImageKit/wiki/FUSE):
 * You can also install an AppImage manager like [Gear Lever](https://flathub.org/apps/it.mijorus.gearlever) for GUI management
