@@ -89,7 +89,7 @@ sudo systemctl disable --now irqbalance # Disable
 * Test install: `gamemoded -t`
 * Note: you can ignore "ERROR: Governor was not set to performance (was actually powersave)!" as Fedora uses HWP
 
-### Steam optimisation (written for intel integrated graphics, taken from [here](https://github.com/winterofhell/fedora-optimizations)
+### Steam optimisation (original guide [here](https://github.com/winterofhell/fedora-optimizations), cherry picked for Intel iGPU)
 * Install Steam (flatpak is best) as well as mangohud and gamescope:
 ```
 flatpak install flathub com.valvesoftware.Steam
