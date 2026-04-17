@@ -87,11 +87,11 @@ sudo systemctl disable --now irqbalance # Disable
 * [More on launch options](https://docs.fedoraproject.org/en-US/gaming/gamescope/)
 
 ## Configure Gnome
-* Go through all settings in Gnome Settings, Gnome Tweaks, and installed extentions
+* Tune Gnome to be more customisable and powerful
 
 ### Gnome Extensions
-* Extend the capabilities of your system
-* Make sure that `extention-manager` is installed
+* Install Gnome Extention manager [WIP]
+* Essential extentions
 ```bash
 Blur my shell # note: high ram usage
 Just perfection
@@ -104,7 +104,7 @@ Vitals # requires lm_sensors package
 * In Gnome Settings: choose dark or light mode and set the window border colour
 * In Gnome Tweaks: change the defualt wallpaper and system font
 * In GDM Settings: customise Gnome Display Manager (login manager)
-* Configure Rewaita (see below) or install a theme from [Gnome Look](gnome-look.org)
+* Install and configure Rewaita or install a theme from [Gnome Look](gnome-look.org)
 * Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
 
 ## Install Apps
@@ -135,14 +135,14 @@ Upscaler
 VS Codium
 ```
 
-### [Install Tailscale](https://tailscale.com/docs/install/linux) for an easy, secure connection to a NAS / server
+### [Install Tailscale](https://tailscale.com/docs/install/linux)
+* For connecting to a NAS / home server
 
 ### Remove unused default Gnome apps
-* Remove default Gnome apps you wont use
+* Remove default Gnome apps that aren't useful to you
 
 ## Firefox configuration
-* Firefox (and forks) benefit greatly from extentions and other tweaks
-
+* Firefox (and its forks) benefit greatly from extentions and other tweaks
 
 ### OpenH264 for Firefox
 * `sudo dnf install -y openh264 gstreamer1-plugin-openh264 mozilla-openh264`
@@ -154,15 +154,16 @@ VS Codium
 * Lower the value of `dom.ipc.processCount.webIsolated` in `about:config` to 2 or 3
 
 ### Firefox extentions
+* Essential Firefox extentions
 ```
-Auto Tab Discard (save ram by sleeping unused tabs)
+Auto Tab Discard (save ram by sleeping inactive tabs)
 Bitwarden Password Manager
 Canvas Blocker (prevent fingerprinting via javascript)
-ClearURLs (removes tracking elements from URLs)
+ClearURLs (automatically remove tracking elements from URLs)
 Consent-O-Matic (automatically fill out cookie consent forms)
-Obsidian Web Clipper
+Obsidian Web Clipper (for Obsidian users)
 uBlock Origin (ad blocker)
 ```
 
 ### Theme
-* Install a Firefox theme in `about:addons`
+* Install Firefox themes in `about:addons`
