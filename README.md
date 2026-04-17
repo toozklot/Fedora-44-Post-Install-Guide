@@ -77,7 +77,7 @@ sudo systemctl disable --now irqbalance # Disable
 
 ### Steam optimisation (original guide [here](https://github.com/winterofhell/fedora-optimizations), cherry picked for Intel iGPU and stability)
 * Ensure steam is installed as a flatpak
-* Install mangohud to limit fps and gamescope (improved version of steamcompmgr)
+* Install mangohud to limit fps and gamescope, a Wayland micro-compositor which is superior to steamcompmgr
 * Basic configurations below, see docs on [gamescope](https://wiki.archlinux.org/title/Gamescope) and [mangohud](https://wiki.archlinux.org/title/MangoHud)
 ```
 sudo dnf install mangohud gamescope
