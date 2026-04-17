@@ -65,7 +65,7 @@ flatpak uninstall --unused # removes unused runtimes and extentions
 * Remove it from the list
 
 ### Disable unused services
-* Do not do this step if you need geolocation and cellular services respectively
+* Skip this step if you need geolocation and cellular services respectively
 * `sudo systemctl disable --now geoclue.service ModemManager.service`
 
 ### Disable IRQ Balance (Intel iGPU only)
