@@ -8,7 +8,7 @@ Things to do after installing Fedora 44
 * Add the RPM Fusion remote repositories and app-stream metadata
 * [flathub setup](https://flatpak.org/setup/Fedora)
 
-## [enable flathub remote repository](https://flatpak.org/setup/Fedora)
+## [Enable flathub remote repository](https://flatpak.org/setup/Fedora)
 * Add the flathub remote repository
 
 ## Update 
