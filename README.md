@@ -106,6 +106,9 @@ Vitals # requires lm_sensors package
 * In GDM Settings: customise Gnome Display Manager (login manager)
 * Install and configure Rewaita
 * Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
+* Install `pipes-sh`
+* Configure a btop++ theme
+* Set a profile icon for the user
 
 ## Install Apps
 * Compressed files support:
