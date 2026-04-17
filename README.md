@@ -31,7 +31,7 @@ Things to do after installing Fedora 44
 ## System optimisation
 * The tips below can allow you to squeeze out a little bit more performance from your system
 * AMD and Nvidea optimisations are not included but can be found [here](https://github.com/winterofhell/fedora-optimizations) (research before running commands)
-* Consider building ananicy-cpp for more performance (instructions in above link)
+* Consider installing [ananicy-cpp](https://gitlab.com/ananicy-cpp/ananicy-cpp)
 
 ### Remove Gnome Software and manage packages manually
 * Gnome software uses  over 100MB of ram at all times for the service it provides, which can be done manually in 30s once per day
@@ -75,19 +75,12 @@ sudo systemctl status irqbalance        # Check status
 sudo systemctl disable --now irqbalance # Disable
 ```
 
-## Gaming optimisation
-
-### [Install and configure gamemode](https://github.com/feralinteractive/gamemode)
-* gamemode automatically applies gaming optimisations whilst games are running
-* Test install: `gamemoded -t`
-* Note: you can ignore "ERROR: Governor was not set to performance (was actually powersave)!" as Fedora uses HWP
-
-### Steam optimisation (original guide [here](https://github.com/winterofhell/fedora-optimizations), cherry picked for Intel iGPU)
-* Install Steam (flatpak is best) as well as mangohud and gamescope:
+### Steam optimisation (original guide [here](https://github.com/winterofhell/fedora-optimizations), cherry picked for Intel iGPU and stability)
+* Ensure steam is installed as a flatpak
+* Install mangohud to limit fps and gamescope (improved version of steamcompmgr)
 ```
-flatpak install flathub com.valvesoftware.Steam
 sudo dnf install mangohud gamescope
-flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud
+flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud # if steam is installed as a flatpak (must also be installed with dnf)
 ```
 * Launch options (paste single line into Steam → Library → Game → Properties → Launch Options). Replace 2560x1440 and 280 with your monitor native resolution and Hz; set fps_limit = Hz − 3.
 * Non‑HDR:
