@@ -131,7 +131,7 @@ VS Codium
 * Install Gnome Extention manager [WIP]
 * Essential extentions
 ```bash
-Blur my shell # note: high ram usage
+Blur my shell
 Just perfection
 Tiling Shell
 User themes
@@ -142,7 +142,7 @@ Vitals # requires lm_sensors package
 * In Gnome Settings: choose dark or light mode and set the window border colour
 * In Gnome Tweaks: change the defualt wallpaper and configure system fonts
 * In GDM Settings: customise Gnome Display Manager (login manager)
-* Install and configure Rewaita
+* [Configure Rewaita](https://github.com/SwordPuffin/Rewaita#-permissions)
 * Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
 * [Install pipes-sh](https://github.com/pipeseroni/pipes.sh#installation)
 * Set a profile icon for the user
