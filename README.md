@@ -35,8 +35,11 @@ Things to do after installing Fedora 44
 
 ### Remove Gnome Software and manage packages manually
 * Gnome software uses  over 100MB of ram at all times for the service it provides, which can be done manually in 30s once per day
-* Remove Gnome Software:
-* `sudo dnf remove gnome-software` 
+* Remove Gnome Software and disable packagekit:
+```
+sudo dnf remove gnome-software
+sudo systemctl disable --now packagekit
+```
 * Manage packages manually:
 ```bash
 sudo dnf install <package>
