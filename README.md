@@ -171,12 +171,13 @@ Obsidian Web Clipper (for Obsidian users)
 uBlock Origin (ad blocker)
 ```
 
+### Theme
+* Install Firefox themes in `about:addons`
+
+
 ## Misc
 * Stuff that doesen't fit elsewhere
 
 ### btop++ configuration
 * Pess 'm' to access the menue and change settings e.g. theme
 * run `sudo setcap cap_dac_read_search,cap_sys_admin+ep /usr/bin/btop` to give btop++ the necessary permissions to access iGPU stats 
-
-### Theme
-* Install Firefox themes in `about:addons`
