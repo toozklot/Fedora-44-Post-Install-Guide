@@ -89,29 +89,6 @@ sudo systemctl disable --now irqbalance # Disable
 * Only include `hdr-enable` if both your game and display support it
 * [More on launch options](https://docs.fedoraproject.org/en-US/gaming/gamescope/)
 
-## Configure Gnome
-* Tune Gnome to be more customisable and powerful
-
-### Gnome Extensions
-* Install Gnome Extention manager [WIP]
-* Essential extentions
-```bash
-Blur my shell # note: high ram usage
-Just perfection
-Tiling Shell
-User themes
-Vitals # requires lm_sensors package
-```
-
-### Theming
-* In Gnome Settings: choose dark or light mode and set the window border colour
-* In Gnome Tweaks: change the defualt wallpaper and configure system fonts
-* In GDM Settings: customise Gnome Display Manager (login manager)
-* Install and configure Rewaita
-* Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
-* [Install pipes-sh](https://github.com/pipeseroni/pipes.sh#installation)
-* Set a profile icon for the user
-
 ## Install Apps
 * Compressed files support:
  `sudo dnf install -y unzip p7zip p7zip-plugins unrar`
@@ -145,7 +122,30 @@ VS Codium
 * For connecting to a NAS / home server
 
 ### Remove unused default Gnome apps
-* Remove default Gnome apps that aren't useful to you
+* Remove preinstalled Gnome apps that aren't useful to you
+
+## Configure Gnome
+* Tune Gnome to be more customisable and powerful
+
+### Gnome Extensions
+* Install Gnome Extention manager [WIP]
+* Essential extentions
+```bash
+Blur my shell # note: high ram usage
+Just perfection
+Tiling Shell
+User themes
+Vitals # requires lm_sensors package
+```
+
+### Theming
+* In Gnome Settings: choose dark or light mode and set the window border colour
+* In Gnome Tweaks: change the defualt wallpaper and configure system fonts
+* In GDM Settings: customise Gnome Display Manager (login manager)
+* Install and configure Rewaita
+* Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
+* [Install pipes-sh](https://github.com/pipeseroni/pipes.sh#installation)
+* Set a profile icon for the user
 
 ## Firefox configuration
 * Firefox (and its forks) benefit greatly from extentions and other tweaks
@@ -173,7 +173,6 @@ uBlock Origin (ad blocker)
 
 ### Theme
 * Install Firefox themes in `about:addons`
-
 
 ## Misc
 * Stuff that doesen't fit elsewhere
