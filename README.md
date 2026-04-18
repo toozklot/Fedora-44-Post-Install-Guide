@@ -110,7 +110,6 @@ Vitals # requires lm_sensors package
 * Install and configure Rewaita
 * Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
 * [Install pipes-sh](https://github.com/pipeseroni/pipes.sh#installation)
-* Configure a btop++ theme
 * Set a profile icon for the user
 
 ## Install Apps
@@ -171,6 +170,13 @@ Consent-O-Matic (automatically fill out cookie consent forms)
 Obsidian Web Clipper (for Obsidian users)
 uBlock Origin (ad blocker)
 ```
+
+## Misc
+* Stuff that doesen't fit elsewhere
+
+### btop++ configuration
+* Pess 'm' to access the menue and change settings e.g. theme
+* run `sudo setcap cap_dac_read_search,cap_sys_admin+ep /usr/bin/btop` to give btop++ the necessary permissions to access iGPU stats 
 
 ### Theme
 * Install Firefox themes in `about:addons`
