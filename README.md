@@ -22,7 +22,7 @@ Things to do after installing Fedora 44
 * For AppImage support [install FUSE](https://github.com/AppImage/AppImageKit/wiki/FUSE):
 * You can also install an AppImage manager like [Gear Lever](https://flathub.org/apps/it.mijorus.gearlever) for GUI management
 
-## [Media Codecs](https://rpmfusion.org/Configuration)
+## [Media Codecs](https://rpmfusion.org/Howto/Multimedia?highlight=%28%5CbCategoryHowto%5Cb%29)
 * Install these to get proper multimedia playback.
 
 ## [H/W Video Acceleration](https://fedoraproject.org/wiki/Hardware_Video_Acceleration)
