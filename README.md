@@ -20,7 +20,7 @@ Things to do after installing Fedora 44
 ## AppImage support
 
 * For AppImage support [install FUSE](https://github.com/AppImage/AppImageKit/wiki/FUSE):
-* You can also install an AppImage manager like [Gear Lever](https://flathub.org/apps/it.mijorus.gearlever) for GUI management
+* You can also install an AppImage manager like [Gear Lever](https://flathub.org/apps/it.mijorus.gearlever) for GUI management (no manual fuse install needed?)
 
 ## [Media Codecs](https://rpmfusion.org/Howto/Multimedia?highlight=%28%5CbCategoryHowto%5Cb%29)
 * Install these to get proper multimedia playback.
@@ -31,7 +31,6 @@ Things to do after installing Fedora 44
 ## System optimisation
 * The tips below can allow you to squeeze out a little bit more performance from your system
 * AMD and Nvidea optimisations are not included but can be found [here](https://github.com/winterofhell/fedora-optimizations) (research before running commands)
-* Consider installing [ananicy-cpp](https://gitlab.com/ananicy-cpp/ananicy-cpp)
 
 ### Remove Gnome Software and manage packages manually
 * Gnome software uses  over 100MB of ram at all times for the service it provides, which can be done manually in 30s once per day
@@ -61,14 +60,8 @@ flatpak uninstall --unused # removes unused runtimes and extentions
 * If the above doesn't work it is installed as a flatpak:
 * `flatpak uninstall org.gnome.Calendar `
 
-### Disable ibus-typing-booster
-* This service also uses a large amount of ram relative to its usefullness
-* Open Gnome Settings → Keyboard (or Region & Language)
-* Under Input Sources, click the three-dot menu and select the ibus-typing-booster entry
-* Remove it from the list
-
 ### Disable unused services
-* Skip this step if you need geolocation and cellular services respectively
+* Skip this step if you need geolocation and cellular services respectively, you can always enable them again if needed
 * `sudo systemctl disable --now geoclue.service ModemManager.service`
 
 ### Disable IRQ Balance (Intel iGPU only)
@@ -77,6 +70,7 @@ flatpak uninstall --unused # removes unused runtimes and extentions
 sudo systemctl status irqbalance        # Check status
 sudo systemctl disable --now irqbalance # Disable
 ```
+* Do test if this made a positive impact, it may be a bad tweak
 
 ## Steam installation and optimisation
 * [Install Steam](https://docs.fedoraproject.org/en-US/gaming/proton/)
@@ -86,12 +80,11 @@ sudo systemctl disable --now irqbalance # Disable
 * `gamescope -f -W 2560 -H 1440 -r 144 --force-grab-cursor --adaptive-sync --hdr-enabled -- %command%`
 * Window options: `-f` for fullscreen, `-b` for borderless
 * Only include `adaptive-sync` if your dislplay supports FreeSync / G-SYNC
-* Only include `hdr-enable` if both your game and display support it
+* Only include `hdr-enable` if both the game and your display support it
 * [More on launch options](https://docs.fedoraproject.org/en-US/gaming/gamescope/)
 
 ## Install Apps
-* Compressed files support:
- `sudo dnf install -y unzip p7zip p7zip-plugins unrar`
+* Feel free to use flatpak / rpm as you like
 
 ### Applications to install:
 ```
@@ -99,13 +92,10 @@ Anki (flashcards)
 btop++
 Btrfs Assistant (snapshots)
 GoofCord (Discord client)
-Drawing (ms paint alternative)
 Extension Manager
 Flatseal (flatpack permission manager)
-Footage (lightweight video editor)
 GDM Settings
 Gnome Tweaks
-Handbrake (video transcoder)
 Librewolf (privacy focused Firefox fork)
 Obsidian (notes)
 OpenCloud Desktop sync client (appimage)
@@ -151,7 +141,6 @@ Vitals # requires lm_sensors package
 * Firefox (and its forks) benefit greatly from extentions and other tweaks
 
 ### OpenH264 for Firefox
-* `sudo dnf install -y openh264 gstreamer1-plugin-openh264 mozilla-openh264`
 * set `media.gmp-provider.enabled` to true in `about:config`
 * Enable the OpenH264 plugin in Firefox settings
 
