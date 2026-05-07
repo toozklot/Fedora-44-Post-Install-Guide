@@ -73,12 +73,26 @@ sudo systemctl disable --now irqbalance # Disable
 ```
 
 ## Steam installation and optimisation
-* [Install Steam](https://docs.fedoraproject.org/en-US/gaming/proton/)
+
+### [Install Steam](https://docs.fedoraproject.org/en-US/gaming/proton/)
+
+### Gamescope launch opions
 * Add launch options to games via Steam → Library → Game → Properties → Launch Options
 * Example steam launch options using gamescope:  
   `gamescope -f -W 2560 -H 1440 -r 144 --adaptive-sync --hdr-enabled -- %command%`
-* [Fedora docs](https://docs.fedoraproject.org/en-US/gaming/gamescope/)
-* [Arch docs](https://wiki.archlinux.org/title/Gamescope#From_Steam)
+* [Fedora docs](https://docs.fedoraproject.org/en-US/gaming/gamescope/) and [Arch docs](https://wiki.archlinux.org/title/Gamescope#From_Steam) on gamescope
+
+### Install GE-Proton
+* Community fork of Proton that is superior in most aspects
+* [Install the ProtonUp-Qt flatpak](https://flathub.org/en/apps/net.davidotek.pupgui2)
+* In ProtonUp-Qt install the latest version of GE-Proton
+
+### Steam client settings
+* Make sure to run through all steam settings and these specifically:
+* Interface: disable auto startup and smooth scrolling, enable text & icon scaling, gpu acceleration, and hardware video encoding
+* Library: disable downloads during gameply, enable Low Bandwith and Low performance Modes
+* In Game: disable the steam overlay
+* Compatility: set default to GE-Proton
 
 ## Install Apps
 * Feel free to use flatpak / rpm as you like
