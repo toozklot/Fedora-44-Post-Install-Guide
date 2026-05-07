@@ -100,12 +100,12 @@ sudo systemctl disable --now irqbalance # Disable
 ### Reccomended applications:
 
 * [Anki](https://flathub.org/en/apps/net.ankiweb.Anki) - spaced repetition flashcards with free android syncing
-* [Btop++](https://github.com/aristocratos/btop) - terminal based system monitor (packaged as "btop" on fedora)
+* [Btop++](https://github.com/aristocratos/btop) - terminal based system monitor (packaged as "btop")
 * [Btrfs Assistant](https://github.com/nexusriot/btrfs-assistant) - gui based snapshots and more
 * GoofCord (Discord client)
 * [Flatseal](https://flathub.org/en/apps/com.github.tchx84.Flatseal) - flatpak permission manager
 * [GDM Settings](https://flathub.org/en/apps/io.github.realmazharhussain.GdmSettings) - customise Gnome Login Manager
-* Gnome Tweaks - packaged as "gnome-tweaks"
+* Gnome Tweaks - Add more customisation options for Gnome (packaged as "gnome-tweaks")
 * [Librewolf](https://flathub.org/en/apps/io.gitlab.librewolf-community) - privacy hardened Firefox fork
 * [Obsidian](https://flathub.org/en/apps/md.obsidian.Obsidian) - markdown based notes
 * [OpenCloud Desktop sync client](https://github.com/opencloud-eu/desktop/releases/) # AppImage only
