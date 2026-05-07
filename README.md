@@ -112,14 +112,12 @@ sudo systemctl disable --now irqbalance # Disable
 * [Pika Backup](https://flathub.org/en/apps/org.gnome.World.PikaBackup) - scheduled home directory backups
 * [Rewaita](https://flathub.org/en/apps/io.github.swordpuffin.rewaita) - simple Gnome theming (idles at 60MB ram)
 * Spotify (music streaming)
+* [Tailscale](https://tailscale.com/docs/install/linux) - VPN for connecting to a home server
 * [VS Codium](https://vscodium.com/) - VS Code with telemetry removed
 
-
-### [Install Tailscale](https://tailscale.com/docs/install/linux)
-* For connecting to a NAS / home server
-
-### Remove unused default Gnome apps
-* Remove preinstalled Gnome apps that aren't useful to you
+### Btop++ configuration
+* Pess 'm' to access the menue and change settings e.g. theme
+* run `sudo setcap cap_dac_read_search,cap_sys_admin+ep /usr/bin/btop` to give btop++ the necessary permissions to access iGPU stats 
 
 ## Configure Gnome
 * Tune Gnome to be more customisable and powerful
@@ -141,6 +139,9 @@ Vitals # requires lm_sensors package
 * In GDM Settings: customise Gnome Display Manager (login manager)
 * [Configure Rewaita](https://github.com/SwordPuffin/Rewaita#-permissions)
 * Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
+
+### Remove unused default Gnome apps
+* Remove preinstalled Gnome apps that aren't useful to you
 
 ## Firefox configuration
 * Firefox (and its forks) benefit greatly from extentions and other tweaks
@@ -167,10 +168,3 @@ uBlock Origin (ad blocker)
 
 ### Theme
 * Install Firefox themes in `about:addons`
-
-## Misc
-* Stuff that doesen't fit elsewhere
-
-### btop++ configuration
-* Pess 'm' to access the menue and change settings e.g. theme
-* run `sudo setcap cap_dac_read_search,cap_sys_admin+ep /usr/bin/btop` to give btop++ the necessary permissions to access iGPU stats 
