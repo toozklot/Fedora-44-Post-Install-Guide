@@ -132,10 +132,10 @@ VS Codium
 * Install Gnome Extention manager [WIP]
 * Essential extentions
 ```bash
-Blur my shell
-Just perfection
-Tiling Shell
-User themes
+Blur my shell # performance heavy
+Just perfection # many small tweaks
+Tiling Shell # pseudo tiling functionality
+User themes # install themes
 Vitals # requires lm_sensors package
 ```
 
