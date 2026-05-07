@@ -126,7 +126,7 @@ sudo systemctl disable --now irqbalance # Disable
 
 ### Gnome Extensions
 * [Install Extention Manager](https://flathub.org/en/apps/com.mattjakeman.ExtensionManager)
-* Essential extentions
+* Essential extentions:
 ```bash
 Blur my shell # performance heavy
 Just perfection # many small tweaks
@@ -136,13 +136,11 @@ Vitals # requires lm_sensors package
 ```
 
 ### Theming
-* In Gnome Settings: choose dark or light mode and set the window border colour
+* In Gnome Settings: choose dark or light mode, set the window border colour, and set a user profile picure
 * In Gnome Tweaks: change the defualt wallpaper and configure system fonts
 * In GDM Settings: customise Gnome Display Manager (login manager)
 * [Configure Rewaita](https://github.com/SwordPuffin/Rewaita#-permissions)
 * Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
-* [Install pipes-sh](https://github.com/pipeseroni/pipes.sh#installation)
-* Set a profile icon for the user
 
 ## Firefox configuration
 * Firefox (and its forks) benefit greatly from extentions and other tweaks
