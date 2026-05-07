@@ -129,7 +129,7 @@ VS Codium
 * Tune Gnome to be more customisable and powerful
 
 ### Gnome Extensions
-* Install Gnome Extention manager [WIP]
+* [Install Extention Manager](https://flathub.org/en/apps/com.mattjakeman.ExtensionManager)
 * Essential extentions
 ```bash
 Blur my shell # performance heavy
