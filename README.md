@@ -30,7 +30,7 @@ Things to do after installing Fedora 44
 
 ## System optimisation
 * The tips below can allow you to squeeze out a little bit more performance from your system
-* AMD and Nvidea optimisations are not included but can be found [here](https://github.com/winterofhell/fedora-optimizations) (research before running commands)
+* Optimisiations for dedicated GPUs not included
 
 ### Remove Gnome Software and manage packages manually
 * Gnome software uses  over 100MB of ram at all times for the service it provides, which can be done manually in 30s once per day
@@ -65,12 +65,11 @@ flatpak uninstall --unused # removes unused runtimes and extentions
 * `sudo systemctl disable --now geoclue.service ModemManager.service`
 
 ### Disable IRQ Balance (Intel iGPU only)
-* [Explanation and justification](https://askubuntu.com/questions/1093163/is-irqbalance-a-bad-thing)
-```bash
+* IRQ Balance prevents applications from using 100% of a thread due to sharing with IO tasks
+* It also keeps all linux core threads working which is terrible for laptop battery life
 sudo systemctl status irqbalance        # Check status
 sudo systemctl disable --now irqbalance # Disable
 ```
-* Do test if this made a positive impact, it may be a bad tweak
 
 ## Steam installation and optimisation
 * [Install Steam](https://docs.fedoraproject.org/en-US/gaming/proton/)
