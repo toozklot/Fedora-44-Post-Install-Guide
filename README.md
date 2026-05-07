@@ -64,7 +64,7 @@ flatpak uninstall --unused # removes unused runtimes and extentions
 * Skip this step if you need geolocation and cellular services respectively, you can always enable them again if needed
 * `sudo systemctl disable --now geoclue.service ModemManager.service`
 
-### Disable IRQ Balance (Intel iGPU only)
+### Disable IRQ Balance
 * IRQ Balance prevents applications from using 100% of a thread due to sharing with IO tasks
 * It also keeps all linux core threads working which is terrible for laptop battery life
 ```bash
