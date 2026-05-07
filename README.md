@@ -104,7 +104,7 @@ sudo systemctl disable --now irqbalance # Disable
 * [Btrfs Assistant](https://github.com/nexusriot/btrfs-assistant) - gui based snapshots and more
 * GoofCord (Discord client)
 * [Flatseal](https://flathub.org/en/apps/com.github.tchx84.Flatseal) - flatpak permission manager
-* [GDM Settings](https://flathub.org/en/apps/io.github.realmazharhussain.GdmSettings) - customise Gnome Login Manager
+* [GDM Settings](https://flathub.org/en/apps/io.github.realmazharhussain.GdmSettings) - customise Gnome Display Manager
 * Gnome Tweaks - Add more customisation options for Gnome (packaged as "gnome-tweaks")
 * [Librewolf](https://flathub.org/en/apps/io.gitlab.librewolf-community) - privacy hardened Firefox fork
 * [Obsidian](https://flathub.org/en/apps/md.obsidian.Obsidian) - markdown based notes
@@ -125,17 +125,17 @@ sudo systemctl disable --now irqbalance # Disable
 ### Gnome Extensions
 * [Install Extention Manager](https://flathub.org/en/apps/com.mattjakeman.ExtensionManager)
 * Essential extentions:  
-  * Blur my shell # performance heavy
-  * Just perfection # many small tweaks
-  * Tiling Shell # pseudo tiling functionality
-  * User themes # install themes
-  * Vitals # requires lm_sensors package
+  * Blur my shell - blur effect (performance heavy)
+  * Just perfection - adds many small tweaks
+  * Tiling Shell - pseudo tiling functionality
+  * User themes - install themes
+  * Vitals - system monitoring in the taskbar (requires "lm_sensors" package)
 
 
 ### Theming
 * In Gnome Settings: choose dark or light mode, set the window border colour, and set a user profile picure
 * In Gnome Tweaks: change the defualt wallpaper and configure system fonts
-* In GDM Settings: customise Gnome Display Manager (login manager)
+* In GDM Settings: customise Gnome Display Manager (Gnome's default login manager)
 * [Configure Rewaita](https://github.com/SwordPuffin/Rewaita#-permissions)
 * Install a [GRUB theme](https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file)
 
