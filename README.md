@@ -89,7 +89,7 @@ sudo systemctl disable --now irqbalance # Disable
 
 ### Steam client settings
 * Make sure to run through all steam settings and these specifically:
-* Interface: disable auto startup and smooth scrolling, enable text & icon scaling, gpu acceleration, and hardware video encoding
+* Interface: disable auto startup, enable text & icon scaling, gpu acceleration, and hardware video encoding
 * Library: disable downloads during gameply, enable Low Bandwith and Low performance Modes
 * In Game: disable the steam overlay
 * Compatility: set default to GE-Proton
