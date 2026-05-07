@@ -98,22 +98,22 @@ sudo systemctl disable --now irqbalance # Disable
 * Feel free to use flatpak / rpm as you like
 
 ### Reccomended applications:
-```
-[Anki](https://flathub.org/en/apps/net.ankiweb.Anki) # spaced repetition flashcards with free android syncing
-[Btop++](https://github.com/aristocratos/btop) # terminal based system monitor (packaged as "btop" on fedora)
-[Btrfs Assistant](https://github.com/nexusriot/btrfs-assistant) # gui based snapshots and more
-GoofCord (Discord client)
-[Flatseal](https://flathub.org/en/apps/com.github.tchx84.Flatseal) # flatpak permission manager
-[GDM Settings](https://flathub.org/en/apps/io.github.realmazharhussain.GdmSettings) # customise Gnome Login Manager
-Gnome Tweaks # packaged as "gnome-tweaks"
-[Librewolf](https://flathub.org/en/apps/io.gitlab.librewolf-community) # privacy hardened Firefox fork
-[Obsidian](https://flathub.org/en/apps/md.obsidian.Obsidian) # markdown based notes
-[OpenCloud Desktop sync client](https://github.com/opencloud-eu/desktop/releases/) # AppImage only
-[Pika Backup](https://flathub.org/en/apps/org.gnome.World.PikaBackup) # scheduled home directory backups
-[Rewaita](https://flathub.org/en/apps/io.github.swordpuffin.rewaita) # simple Gnome theming (idles at 60MB ram)
-Spotify (music streaming)
-[VS Codium](https://vscodium.com/) # VS Code with telemetry removed
-```
+
+* [Anki](https://flathub.org/en/apps/net.ankiweb.Anki) # spaced repetition flashcards with free android syncing
+* [Btop++](https://github.com/aristocratos/btop) # terminal based system monitor (packaged as "btop" on fedora)
+* [Btrfs Assistant](https://github.com/nexusriot/btrfs-assistant) # gui based snapshots and more
+* GoofCord (Discord client)
+* [Flatseal](https://flathub.org/en/apps/com.github.tchx84.Flatseal) # flatpak permission manager
+* [GDM Settings](https://flathub.org/en/apps/io.github.realmazharhussain.GdmSettings) # customise Gnome Login Manager
+* Gnome Tweaks # packaged as "gnome-tweaks"
+* [Librewolf](https://flathub.org/en/apps/io.gitlab.librewolf-community) # privacy hardened Firefox fork
+* [Obsidian](https://flathub.org/en/apps/md.obsidian.Obsidian) # markdown based notes
+* [OpenCloud Desktop sync client](https://github.com/opencloud-eu/desktop/releases/) # AppImage only
+* [Pika Backup](https://flathub.org/en/apps/org.gnome.World.PikaBackup) # scheduled home directory backups
+* [Rewaita](https://flathub.org/en/apps/io.github.swordpuffin.rewaita) # simple Gnome theming (idles at 60MB ram)
+* Spotify (music streaming)
+* [VS Codium](https://vscodium.com/) # VS Code with telemetry removed
+
 
 ### [Install Tailscale](https://tailscale.com/docs/install/linux)
 * For connecting to a NAS / home server
