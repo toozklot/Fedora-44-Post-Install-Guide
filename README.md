@@ -67,6 +67,7 @@ flatpak uninstall --unused # removes unused runtimes and extentions
 ### Disable IRQ Balance (Intel iGPU only)
 * IRQ Balance prevents applications from using 100% of a thread due to sharing with IO tasks
 * It also keeps all linux core threads working which is terrible for laptop battery life
+```bash
 sudo systemctl status irqbalance        # Check status
 sudo systemctl disable --now irqbalance # Disable
 ```
