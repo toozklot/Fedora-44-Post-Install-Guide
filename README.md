@@ -102,7 +102,6 @@ sudo systemctl disable --now irqbalance # Disable
 * [Anki](https://flathub.org/en/apps/net.ankiweb.Anki) - spaced repetition flashcards with free android syncing
 * [Btop++](https://github.com/aristocratos/btop) - terminal based system monitor (packaged as "btop")
 * [Btrfs Assistant](https://github.com/nexusriot/btrfs-assistant) - gui based snapshots and more
-* GoofCord (Discord client)
 * [Flatseal](https://flathub.org/en/apps/com.github.tchx84.Flatseal) - flatpak permission manager
 * [GDM Settings](https://flathub.org/en/apps/io.github.realmazharhussain.GdmSettings) - customise Gnome Display Manager
 * Gnome Tweaks - Add more customisation options for Gnome (packaged as "gnome-tweaks")
@@ -113,6 +112,7 @@ sudo systemctl disable --now irqbalance # Disable
 * [Rewaita](https://flathub.org/en/apps/io.github.swordpuffin.rewaita) - simple Gnome theming (idles at 60MB ram)
 * Spotify (music streaming)
 * [Tailscale](https://tailscale.com/docs/install/linux) - VPN for connecting to a home server
+* [Vesktop](https://flathub.org/en/apps/dev.vencord.Vesktop) - discord client
 * [VS Codium](https://vscodium.com/) - VS Code with telemetry removed
 
 ### Btop++ configuration
