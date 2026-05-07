@@ -124,14 +124,13 @@ sudo systemctl disable --now irqbalance # Disable
 
 ### Gnome Extensions
 * [Install Extention Manager](https://flathub.org/en/apps/com.mattjakeman.ExtensionManager)
-* Essential extentions:
-```bash
-Blur my shell # performance heavy
-Just perfection # many small tweaks
-Tiling Shell # pseudo tiling functionality
-User themes # install themes
-Vitals # requires lm_sensors package
-```
+* Essential extentions:  
+  * Blur my shell # performance heavy
+  * Just perfection # many small tweaks
+  * Tiling Shell # pseudo tiling functionality
+  * User themes # install themes
+  * Vitals # requires lm_sensors package
+
 
 ### Theming
 * In Gnome Settings: choose dark or light mode, set the window border colour, and set a user profile picure
