@@ -76,7 +76,7 @@ sudo systemctl disable --now irqbalance # Disable
 * [Install Steam](https://docs.fedoraproject.org/en-US/gaming/proton/)
 * Add launch options to games via Steam → Library → Game → Properties → Launch Options
 * Example steam launch options using gamescope:
-  `gamescope -f -W 2560 -H 1440 -r 144 --force-grab-cursor --adaptive-sync --hdr-enabled -- %command%`
+  `gamescope -f -W 2560 -H 1440 -r 144 --adaptive-sync --hdr-enabled -- %command%`
 * [Fedora docs](https://docs.fedoraproject.org/en-US/gaming/gamescope/)
 * [Arch docs](https://wiki.archlinux.org/title/Gamescope#From_Steam)
 
