@@ -78,8 +78,8 @@ sudo systemctl disable --now irqbalance # Disable
 * Example steam launch options using gamescope:
 * `gamescope -f -W 2560 -H 1440 -r 144 --force-grab-cursor --adaptive-sync --hdr-enabled -- %command%`
 * Window options: `-f` for fullscreen, `-b` for borderless
-* Only include `adaptive-sync` if your dislplay supports FreeSync / G-SYNC
-* Only include `hdr-enable` if both the game and your display support it
+* Add `adaptive-sync` if your dislplay supports FreeSync / G-SYNC
+* Add `hdr-enable` if both the game and your display support it
 * [More on launch options](https://docs.fedoraproject.org/en-US/gaming/gamescope/)
 
 ## Install Apps
