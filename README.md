@@ -110,7 +110,7 @@ sudo systemctl disable --now irqbalance # Disable
 * [OpenCloud Desktop sync client](https://github.com/opencloud-eu/desktop/releases/) # AppImage only
 * [Pika Backup](https://flathub.org/en/apps/org.gnome.World.PikaBackup) - scheduled home directory backups
 * [Rewaita](https://flathub.org/en/apps/io.github.swordpuffin.rewaita) - simple Gnome theming (idles at 60MB ram)
-* Spotify (music streaming)
+* [Spotify](https://flathub.org/en/apps/com.spotify.Client) - music streaming
 * [Tailscale](https://tailscale.com/docs/install/linux) - VPN for connecting to a home server
 * [Vesktop](https://flathub.org/en/apps/dev.vencord.Vesktop) - discord client
 * [VS Codium](https://vscodium.com/) - VS Code with telemetry removed
